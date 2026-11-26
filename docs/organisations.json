@@ -1499,10 +1499,10 @@
     "website": "illumina.com",
     "approach": "Data infrastructure",
     "data": "Single-cell transcriptomics at billion-cell scale",
-    "summary": "BioInsight AI Lab builds a genome-wide CRISPR perturbation atlas with pharma partners (AstraZeneca, Merck, Lilly, Formation Bio) and the CellularAI response-prediction model; won the 2026 Virtual Cell Challenge",
+    "summary": "BioInsight AI Lab builds the Billion Cell Atlas, a genome-wide CRISPR perturbation atlas with pharma partners (AstraZeneca, Merck, Lilly, Formation Bio), and CellularAI, a meta-analysis-based algorithm that predicts transcriptome-wide responses to genetic perturbations in unseen cell types from CRISPRi-screened reference cell lines; CellularAI won the 2026 Virtual Cell Challenge",
     "models": "Billion Cell Atlas (CRISPR perturbation, 1B cells, >200 cell lines), CellularAI",
-    "open_release": "—",
-    "openness_detail": "Partner access",
+    "open_release": "Partial",
+    "openness_detail": "CellularAI code open (Apache-2.0); Billion Cell Atlas by partner access",
     "pharma_partners": [
       "AstraZeneca",
       "Lilly",
@@ -1510,6 +1510,16 @@
     ],
     "virtual_cell_challenge": "2026: winner (final rank 1/806)",
     "sources": [
+      {
+        "url": "https://www.illumina.com/science/genomics-research/articles/introducing-the-cellularai-algorithm--predicting-single-cell-res.html",
+        "supports": "CellularAI method, first place in the 2026 Virtual Cell Challenge, open-source code",
+        "quality": "primary"
+      },
+      {
+        "url": "https://github.com/Illumina/CellularAI",
+        "supports": "Code (Apache-2.0)",
+        "quality": "primary"
+      },
       {
         "url": "https://www.genengnews.com/topics/drug-discovery/ai-and-drug-discovery-get-a-boost-from-illuminas-billion-cell-atlas-release/",
         "supports": "summary, models",
@@ -1539,7 +1549,7 @@
     "founded_source": null,
     "context_note": "",
     "needs_verification": "",
-    "last_checked": "2026-11-06",
+    "last_checked": "2026-11-26",
     "metro": "San Diego",
     "lat": 32.72,
     "lon": -117.16
