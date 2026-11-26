@@ -1,0 +1,3362 @@
+[
+  {
+    "id": "10x-genomics",
+    "name": "10x Genomics",
+    "type": "Public company (tools)",
+    "category": "Data, compute & funders",
+    "city": "Pleasanton, CA",
+    "country": "USA",
+    "founded": "",
+    "website": "10xgenomics.com",
+    "approach": "Data infrastructure",
+    "data": "Single-cell & spatial instruments (Flex, Xenium)",
+    "summary": "Generates training data for the Arc Virtual Cell Atlas with Ultima; sponsors the Virtual Cell Challenge; partners with startups (e.g. Biomy) on spatial virtual cells",
+    "models": "Arc Virtual Cell Atlas (co-generator)",
+    "open_release": "—",
+    "openness_detail": "Partner access",
+    "pharma_partners": [],
+    "virtual_cell_challenge": "Sponsor",
+    "sources": [
+      {
+        "url": "https://www.10xgenomics.com/ai/virtual-cell-atlas",
+        "supports": "summary, models",
+        "quality": "primary"
+      }
+    ],
+    "founded_source": null,
+    "context_note": "",
+    "needs_verification": "",
+    "last_checked": "2026-11-06",
+    "metro": "SF Bay Area",
+    "lat": 37.6,
+    "lon": -122.25
+  },
+  {
+    "id": "alibaba-damo-academy",
+    "name": "Alibaba DAMO Academy",
+    "type": "Big-tech lab",
+    "category": "Foundation & world models",
+    "city": "Hangzhou",
+    "country": "China",
+    "founded": "",
+    "website": "damo.alibaba.com",
+    "approach": "Generative single-cell world model",
+    "data": "scRNA-seq (9 tissues, 5 species)",
+    "summary": "Lingshu-Cell: masked discrete diffusion model that simulates cell states under perturbation; reports leading results on the Virtual Cell Challenge H1 benchmark with ~0.6M training cells",
+    "models": "Lingshu-Cell",
+    "open_release": "Partial",
+    "openness_detail": "Preprint (arXiv)",
+    "pharma_partners": [],
+    "virtual_cell_challenge": "",
+    "sources": [
+      {
+        "url": "https://arxiv.org/html/2603.25240v1",
+        "supports": "summary, models",
+        "quality": "primary"
+      }
+    ],
+    "founded_source": null,
+    "context_note": "Benchmark claim self-reported in preprint.",
+    "needs_verification": "",
+    "last_checked": "2026-11-06",
+    "metro": "Hangzhou",
+    "lat": 30.27,
+    "lon": 120.16
+  },
+  {
+    "id": "allen-institute-for-cell-science",
+    "name": "Allen Institute for Cell Science",
+    "type": "Non-profit research institute",
+    "category": "Imaging & morphology",
+    "city": "Seattle",
+    "country": "USA",
+    "founded": "",
+    "website": "allencell.org",
+    "approach": "Imaging",
+    "data": "3D live-cell microscopy",
+    "summary": "AI models predicting organelle organisation from images; imaging partner of Biohub's initiative",
+    "models": "Allen Integrated Cell",
+    "open_release": "Yes",
+    "openness_detail": "Open",
+    "pharma_partners": [],
+    "virtual_cell_challenge": "",
+    "sources": [
+      {
+        "url": "https://biohub.org/news/virtual-biology-initiative/",
+        "supports": "summary, models",
+        "quality": "primary"
+      }
+    ],
+    "founded_source": null,
+    "context_note": "Virtual-cell role is via the Biohub Virtual Biology Initiative partnership; own model (Allen Integrated Cell) dates from 2018.",
+    "needs_verification": "",
+    "last_checked": "2026-11-06",
+    "metro": "Seattle",
+    "lat": 47.61,
+    "lon": -122.33
+  },
+  {
+    "id": "altos-labs",
+    "name": "Altos Labs",
+    "type": "Startup (rejuvenation)",
+    "category": "Perturbation models (single-cell)",
+    "city": "Bay Area / San Diego (multi-site)",
+    "country": "USA / UK",
+    "founded": "",
+    "website": "altoslabs.com",
+    "approach": "Single-cell perturbation",
+    "data": "scRNA-seq perturbation screens",
+    "summary": "Flow-matching generative model; won 2025 Virtual Cell Challenge Generalist Prize",
+    "models": "'go-with-the-flow' model; ~7M curated cells",
+    "open_release": "No",
+    "openness_detail": "Proprietary",
+    "pharma_partners": [],
+    "virtual_cell_challenge": "Generalist Prize (2025)",
+    "sources": [
+      {
+        "url": "https://www.genengnews.com/topics/artificial-intelligence/neurips-2025-altos-labs-wins-generalist-prize-at-arcs-virtual-cell-challenge",
+        "supports": "summary, models",
+        "quality": "press"
+      },
+      {
+        "url": "https://www.genomeweb.com/node/646871",
+        "supports": "Bay Area-based; challenge prize",
+        "quality": "press"
+      }
+    ],
+    "founded_source": null,
+    "context_note": "",
+    "needs_verification": "",
+    "last_checked": "2026-11-06",
+    "metro": "SF Bay Area",
+    "lat": 37.6,
+    "lon": -122.25
+  },
+  {
+    "id": "arc-institute",
+    "name": "Arc Institute",
+    "type": "Non-profit research institute",
+    "category": "Perturbation models (single-cell)",
+    "city": "Palo Alto",
+    "country": "USA",
+    "founded": "",
+    "website": "arcinstitute.org",
+    "approach": "Single-cell perturbation",
+    "data": "scRNA-seq (Perturb-seq, chemical & cytokine screens)",
+    "summary": "Transformer over sets of cells: State Embedding (cell representation) + State Transition (predicts perturbation shift across populations); runs the Virtual Cell Challenge benchmark",
+    "models": "State, Arc Virtual Cell Atlas, scBaseCount, Cell-Eval, Virtual Cell Challenge, Stack (in-context perturbation model), PIE (generalising perturbation effects), Virtual Cell Challenge 2026 (zero-shot)",
+    "open_release": "Yes",
+    "openness_detail": "Open (non-commercial)",
+    "pharma_partners": [],
+    "virtual_cell_challenge": "Host",
+    "sources": [
+      {
+        "url": "https://arcinstitute.org/news/virtual-cell-model-state",
+        "supports": "summary, models",
+        "quality": "primary"
+      },
+      {
+        "url": "https://arcinstitute.org/virtual-cell-initiative",
+        "supports": "Virtual Cell Initiative: State, Stack, PIE, challenge",
+        "quality": "primary"
+      },
+      {
+        "url": "https://arcinstitute.org/news/virtual-cell-challenge-2026",
+        "supports": "2026 Challenge: zero-shot on unseen cell lines",
+        "quality": "primary"
+      }
+    ],
+    "founded_source": null,
+    "context_note": "",
+    "needs_verification": "",
+    "last_checked": "2026-11-06",
+    "metro": "SF Bay Area",
+    "lat": 37.6,
+    "lon": -122.25
+  },
+  {
+    "id": "argonne-national-laboratory",
+    "name": "Argonne National Laboratory",
+    "type": "National lab (DOE)",
+    "category": "Data, compute & funders",
+    "city": "Lemont (Chicago area)",
+    "country": "USA",
+    "founded": "",
+    "website": "anl.gov",
+    "approach": "Infrastructure / AI for science",
+    "data": "Exascale compute, autonomous labs, bio-design",
+    "summary": "DOE Genesis Mission AI hub; DOE is putting >$500M into the Virtual Biology Initiative via national-lab compute and autonomous labs",
+    "models": "Transformational AI Models Consortium",
+    "open_release": "—",
+    "openness_detail": "Public",
+    "pharma_partners": [],
+    "virtual_cell_challenge": "",
+    "sources": [
+      {
+        "url": "https://www.hpcwire.com/off-the-wire/doe-nih-and-biohub-partner-to-build-foundational-data-for-predictive-biological-ai-models/",
+        "supports": "summary, models",
+        "quality": "press"
+      },
+      {
+        "url": "https://www.newswise.com/doescience/international-cross-sector-collaboration-commits-nearly-2-billion-to-build-foundational-data-for-ai-models-to-predict-and-treat-disease",
+        "supports": "DOE >$500M via Genesis Mission",
+        "quality": "press"
+      }
+    ],
+    "founded_source": null,
+    "context_note": "DOE/NIH/Biohub MOU commits DOE national labs.",
+    "needs_verification": "Argonne's specific role not named.",
+    "last_checked": "2026-11-06",
+    "metro": "Chicago area",
+    "lat": 41.88,
+    "lon": -87.63
+  },
+  {
+    "id": "astrazeneca",
+    "name": "AstraZeneca",
+    "type": "Pharma",
+    "category": "Pharma programmes",
+    "city": "Cambridge",
+    "country": "UK",
+    "founded": "",
+    "website": "astrazeneca.com",
+    "approach": "In-house multimodal foundation models (acquisition)",
+    "data": "Pathology images, clinical data, single-cell (Billion Cell Atlas)",
+    "summary": "Acquired Modella AI (Boston) to own pathology/multimodal foundation models and agents in-house; founding participant in Illumina Billion Cell Atlas; Turbine partner",
+    "models": "Modella AI models; Billion Cell Atlas",
+    "open_release": "No",
+    "openness_detail": "Internal",
+    "pharma_partners": [],
+    "virtual_cell_challenge": "",
+    "sources": [
+      {
+        "url": "https://nordiclifescience.org/astrazeneca-acquires-modella-ai/",
+        "supports": "summary, models",
+        "quality": "press"
+      },
+      {
+        "url": "https://doi.org/10.1038/s44387-025-00064-0",
+        "supports": "CellAtria agentic scRNA-seq framework",
+        "quality": "primary"
+      }
+    ],
+    "founded_source": null,
+    "context_note": "Modella models are pathology-focused; 'virtual cell' framing is indirect.",
+    "needs_verification": "",
+    "last_checked": "2026-11-06",
+    "metro": "Cambridge (UK)",
+    "lat": 52.2,
+    "lon": 0.12
+  },
+  {
+    "id": "baiyao-technology-compass",
+    "name": "Baiyao Technology (百曜科技 / Compass)",
+    "type": "Startup",
+    "category": "Foundation & world models",
+    "city": "Beijing",
+    "country": "China",
+    "founded": "",
+    "website": "",
+    "approach": "Single-cell foundation model",
+    "data": "Single-cell multi-omics",
+    "summary": "Knowledge-enhanced cross-species single-cell foundation model + graph/prior-knowledge virtual cell models; platform for target ID, drug screening, iPSC",
+    "models": "GeneCompass, CellGraphCompass",
+    "open_release": "Partial",
+    "openness_detail": "Mixed",
+    "pharma_partners": [],
+    "virtual_cell_challenge": "",
+    "sources": [
+      {
+        "url": "https://eu.36kr.com/en/p/3519810822249601",
+        "supports": "summary, models",
+        "quality": "press"
+      }
+    ],
+    "founded_source": null,
+    "context_note": "",
+    "needs_verification": "Name transliterations vary (Baiyao/Benyao); Beijing vs Shanghai unclear; its claimed challenge ranking doesn't match official results.",
+    "last_checked": "2026-11-06",
+    "metro": "Beijing",
+    "lat": 39.9,
+    "lon": 116.4
+  },
+  {
+    "id": "barcelona-supercomputing-center-bsc-ai-f",
+    "name": "Barcelona Supercomputing Center (BSC AI Factory)",
+    "type": "National research centre",
+    "category": "Data, compute & funders",
+    "city": "Barcelona",
+    "country": "Spain",
+    "founded": "",
+    "website": "bsc.es",
+    "approach": "Infrastructure / enabler",
+    "data": "Compute (MareNostrum 5 AI upgrade); cancer & single-cell AI groups",
+    "summary": "One of the EU's first seven AI Factories; €129M MareNostrum 5 AI upgrade; life-sciences groups work on single-cell and treatment-response prediction",
+    "models": "MareNostrum 5, BSC AI Factory",
+    "open_release": "—",
+    "openness_detail": "Public",
+    "pharma_partners": [],
+    "virtual_cell_challenge": "",
+    "sources": [
+      {
+        "url": "https://catalonia.com/w/barcelona-strengthens-position-as-europe-s-ai-hub-with-129-million-euros-supercomputer-expansion",
+        "supports": "summary, models",
+        "quality": "press"
+      }
+    ],
+    "founded_source": null,
+    "context_note": "No virtual-cell-specific programme found; included as compute infrastructure.",
+    "needs_verification": "",
+    "last_checked": "2026-11-06",
+    "metro": "Barcelona",
+    "lat": 41.39,
+    "lon": 2.17
+  },
+  {
+    "id": "basecamp-research",
+    "name": "Basecamp Research",
+    "type": "Startup",
+    "category": "Adjacent",
+    "city": "London / Cambridge, MA",
+    "country": "UK / USA",
+    "founded": "",
+    "website": "basecamp-research.com",
+    "approach": "Evolutionary DNA foundation model for therapeutic design",
+    "data": "Metagenomic DNA (>100B novel genes, BaseData)",
+    "summary": "EDEN (28B parameters) is trained on DNA sequences, not cell states; it designs molecules such as gene-insertion systems, antibiotic peptides and vaccine targets aimed at in vivo cell therapies",
+    "models": "EDEN, aiPGI (AI-programmable gene insertion), BaseBench",
+    "open_release": "—",
+    "openness_detail": "No (EDEN available via Claude connector)",
+    "pharma_partners": [],
+    "virtual_cell_challenge": "",
+    "sources": [
+      {
+        "url": "https://www.basecamp-research.com/",
+        "supports": "summary, models",
+        "quality": "press"
+      },
+      {
+        "url": "https://siliconangle.com/2026/09/23/ai-drug-discovery-startup-basecamp-research-raises-140m/",
+        "supports": "$140M raise; in vivo cell therapy focus",
+        "quality": "press"
+      },
+      {
+        "url": "https://www.aap.com.au/aapreleases/cision20260112ae60330",
+        "supports": "Programmable gene insertion models (Jan 2026)",
+        "quality": "press"
+      }
+    ],
+    "founded_source": null,
+    "context_note": "Adjacent: designs molecules to change cells but does not model cell states or perturbation responses.",
+    "needs_verification": "Founding year from general knowledge.",
+    "last_checked": "2026-11-06",
+    "metro": "London",
+    "lat": 51.51,
+    "lon": -0.13
+  },
+  {
+    "id": "bayer",
+    "name": "Bayer",
+    "type": "Pharma",
+    "category": "Pharma programmes",
+    "city": "Leverkusen",
+    "country": "Germany",
+    "founded": "",
+    "website": "bayer.com",
+    "approach": "Partner-led (cell simulation)",
+    "data": "Signalling / oncology models",
+    "summary": "Uses Turbine's Simulated Cell platform in oncology programmes; no public in-house virtual cell model found",
+    "models": "",
+    "open_release": "No",
+    "openness_detail": "Licensed",
+    "pharma_partners": [],
+    "virtual_cell_challenge": "",
+    "sources": [
+      {
+        "url": "https://www.businesswire.com/news/home/20250424397761/en/Turbine-Launches-the-Worlds-First-Virtual-Lab-Using-Cell-Simulations",
+        "supports": "summary, models",
+        "quality": "primary"
+      }
+    ],
+    "founded_source": null,
+    "context_note": "Only evidence is being a Turbine partner.",
+    "needs_verification": "",
+    "last_checked": "2026-11-06",
+    "metro": "Leverkusen",
+    "lat": 51.03,
+    "lon": 6.98
+  },
+  {
+    "id": "bgi-research",
+    "name": "BGI Research",
+    "type": "Research institute (genomics company)",
+    "category": "Foundation & world models",
+    "city": "Shenzhen",
+    "country": "China",
+    "founded": "",
+    "website": "bgi.com",
+    "approach": "Single-cell foundation model",
+    "data": "scRNA-seq + gene regulatory priors",
+    "summary": "Foundation model whose architecture follows gene regulatory hierarchies (RegFormer)",
+    "models": "RegFormer",
+    "open_release": "Yes",
+    "openness_detail": "Open (code on GitHub)",
+    "pharma_partners": [],
+    "virtual_cell_challenge": "",
+    "sources": [
+      {
+        "url": "https://doi.org/10.1038/s41467-026-72198-x",
+        "supports": "summary, models",
+        "quality": "primary"
+      }
+    ],
+    "founded_source": null,
+    "context_note": "",
+    "needs_verification": "",
+    "last_checked": "2026-11-06",
+    "metro": "Shenzhen",
+    "lat": 22.54,
+    "lon": 114.06
+  },
+  {
+    "id": "biomap",
+    "name": "BioMap (百图生科)",
+    "type": "Startup",
+    "category": "Foundation & world models",
+    "city": "Beijing (HK InnoHub)",
+    "country": "China",
+    "founded": "",
+    "website": "biomap.com",
+    "approach": "Foundation model + perturbation",
+    "data": "Multi-omics / single-cell",
+    "summary": "Very large xTrimo foundation model combined with statistical features and domain priors; 1st place overall, 2025 Virtual Cell Challenge",
+    "models": "xTrimo V3 (210B params)",
+    "open_release": "No",
+    "openness_detail": "Proprietary",
+    "pharma_partners": [],
+    "virtual_cell_challenge": "1st place (2025)",
+    "sources": [
+      {
+        "url": "https://arcinstitute.org/news/virtual-cell-challenge-2025-wrap-up",
+        "supports": "summary, models",
+        "quality": "primary"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41592-024-02305-7",
+        "supports": "scFoundation model (Nature Methods 2024)",
+        "quality": "primary"
+      },
+      {
+        "url": "https://www.genomeweb.com/node/646871",
+        "supports": "Team BM_xTVC, xTrimoSCPerturb built on scFoundation",
+        "quality": "press"
+      }
+    ],
+    "founded_source": null,
+    "context_note": "",
+    "needs_verification": "$100M round reported by 36Kr only; HK IPO status not confirmed.",
+    "last_checked": "2026-11-06",
+    "metro": "Beijing",
+    "lat": 39.9,
+    "lon": 116.4
+  },
+  {
+    "id": "biomy",
+    "name": "Biomy",
+    "type": "Startup",
+    "category": "Spatial & tissue models",
+    "city": "Tokyo",
+    "country": "Japan",
+    "founded": "",
+    "website": "biomy-tech.com",
+    "approach": "Spatial virtual cell foundation model",
+    "data": "Spatial transcriptomics (10x Xenium)",
+    "summary": "Partnership with 10x Genomics to develop AI virtual cell foundation models from Xenium spatial data",
+    "models": "Virtual Cell FMs (in development)",
+    "open_release": "No",
+    "openness_detail": "Proprietary",
+    "pharma_partners": [],
+    "virtual_cell_challenge": "",
+    "sources": [
+      {
+        "url": "https://prtimes.jp/main/html/rd/p/000000012.000082088.html",
+        "supports": "summary, models",
+        "quality": "primary"
+      }
+    ],
+    "founded_source": null,
+    "context_note": "",
+    "needs_verification": "",
+    "last_checked": "2026-11-06",
+    "metro": "Tokyo",
+    "lat": 35.68,
+    "lon": 139.69
+  },
+  {
+    "id": "bioptimus",
+    "name": "Bioptimus",
+    "type": "Startup",
+    "category": "Foundation & world models",
+    "city": "Paris",
+    "country": "France",
+    "founded": "",
+    "website": "bioptimus.com",
+    "approach": "Multimodal foundation model",
+    "data": "Pathology images, multi-omics",
+    "summary": "Multi-scale, multimodal foundation models from molecules to tissue",
+    "models": "H-Optimus, M-Optimus",
+    "open_release": "Partial",
+    "openness_detail": "Mixed (H-Optimus-0 open)",
+    "pharma_partners": [],
+    "virtual_cell_challenge": "",
+    "sources": [
+      {
+        "url": "https://www.biopharmatrend.com/post/1112-bioptimus-reaches-76m-milestone-as-it-prepares-for-next-gen-ai-foundation-model/",
+        "supports": "summary, models",
+        "quality": "press"
+      }
+    ],
+    "founded_source": null,
+    "context_note": "",
+    "needs_verification": "",
+    "last_checked": "2026-11-06",
+    "metro": "Paris",
+    "lat": 48.86,
+    "lon": 2.35
+  },
+  {
+    "id": "biostate-ai",
+    "name": "Biostate AI",
+    "type": "Startup",
+    "category": "Foundation & world models",
+    "city": "Palo Alto / Houston",
+    "country": "USA",
+    "founded": "2023",
+    "website": "biostate.ai",
+    "approach": "Transcriptome world model",
+    "data": "Low-cost bulk RNA-seq at scale",
+    "summary": "Self-supervised predictive world model of the transcriptome (GeneJEPA) trained on RNA-seq it generates cheaply in-house",
+    "models": "GeneJEPA, Biobase, Prognosis AI",
+    "open_release": "Partial",
+    "openness_detail": "Partly open (GeneJEPA code)",
+    "pharma_partners": [],
+    "virtual_cell_challenge": "",
+    "sources": [
+      {
+        "url": "https://doi.org/10.1101/2025.10.14.682378",
+        "supports": "summary, models",
+        "quality": "primary"
+      },
+      {
+        "url": "https://www.axios.com/pro/biotech-deals/2025/05/20/exclusive-biostate-ai-raises-12m-series-a",
+        "supports": "Series A, founders",
+        "quality": "press"
+      }
+    ],
+    "founded_source": "https://pharma.nridigital.com/pharma_nov24/case-studies-ai-pharma",
+    "context_note": "Uses bulk RNA-seq rather than single-cell data.",
+    "needs_verification": "",
+    "last_checked": "2026-11-06",
+    "metro": "SF Bay Area",
+    "lat": 37.6,
+    "lon": -122.25
+  },
+  {
+    "id": "broad-institute-uhler-carpenter-singh-la",
+    "name": "Broad Institute (Uhler / Carpenter-Singh labs)",
+    "type": "Non-profit research institute",
+    "category": "Imaging & morphology",
+    "city": "Cambridge, MA",
+    "country": "USA",
+    "founded": "",
+    "website": "broadinstitute.org",
+    "approach": "Perturbation (transcriptomics + imaging)",
+    "data": "Perturb-seq, Cell Painting images",
+    "summary": "MORPH predicts single-cell responses to unseen genetic perturbations with transcriptomic or imaging outputs; Carpenter-Singh lab created Cell Painting and the JUMP dataset used by imaging virtual cells",
+    "models": "MORPH, Cell Painting, JUMP-CP",
+    "open_release": "Yes",
+    "openness_detail": "Open",
+    "pharma_partners": [],
+    "virtual_cell_challenge": "",
+    "sources": [
+      {
+        "url": "https://www.broadinstitute.org/publications/broad1367241",
+        "supports": "summary, models",
+        "quality": "primary"
+      },
+      {
+        "url": "https://www.nature.com/articles/s41592-024-02537-7",
+        "supports": "PERISCOPE genome-wide morphology atlas",
+        "quality": "primary"
+      }
+    ],
+    "founded_source": null,
+    "context_note": "",
+    "needs_verification": "",
+    "last_checked": "2026-11-06",
+    "metro": "Boston area",
+    "lat": 42.36,
+    "lon": -71.06
+  },
+  {
+    "id": "cambridge-stem-cell-institute-teichmann-",
+    "name": "Cambridge Stem Cell Institute – Teichmann lab",
+    "type": "Academic lab",
+    "category": "Spatial & tissue models",
+    "city": "Cambridge",
+    "country": "UK",
+    "founded": "",
+    "website": "teichlab.org",
+    "approach": "Spatial tissue perturbation models + cell atlases",
+    "data": "Single-cell + spatial genomics (Human Cell Atlas)",
+    "summary": "Causal model of cell–cell communication that simulates tissue-level perturbation effects (Celcomen); co-leads the Human Cell Atlas",
+    "models": "Celcomen, CellTypist, Human Cell Atlas",
+    "open_release": "Yes",
+    "openness_detail": "Open (code + weights on GitHub)",
+    "pharma_partners": [],
+    "virtual_cell_challenge": "",
+    "sources": [
+      {
+        "url": "https://www.nature.com/articles/s41467-026-69856-5",
+        "supports": "summary, models",
+        "quality": "primary"
+      },
+      {
+        "url": "https://www.sanger.ac.uk/person/teichmann-sarah/",
+        "supports": "Lab moved from Sanger to Cambridge Stem Cell Institute in 2024",
+        "quality": "primary"
+      }
+    ],
+    "founded_source": null,
+    "context_note": "",
+    "needs_verification": "",
+    "last_checked": "2026-11-06",
+    "metro": "Cambridge (UK)",
+    "lat": 52.2,
+    "lon": 0.12
+  },
+  {
+    "id": "cellarity",
+    "name": "Cellarity",
+    "type": "Startup (Flagship)",
+    "category": "Perturbation models (single-cell)",
+    "city": "Somerville, MA",
+    "country": "USA",
+    "founded": "",
+    "website": "cellarity.com",
+    "approach": "Cell-state perturbation",
+    "data": "Single-cell transcriptomics, multi-omics",
+    "summary": "Active lab-in-the-loop deep learning on high-throughput transcriptomics to find cell-state-correcting drugs (Science)",
+    "models": "Cellarity Maps; 1.26M-cell perturbation dataset",
+    "open_release": "Partial",
+    "openness_detail": "Mixed (open datasets)",
+    "pharma_partners": [],
+    "virtual_cell_challenge": "",
+    "sources": [
+      {
+        "url": "https://www.manufacturingchemist.com/cellarity-unveils-ai-driven-framework-cell-drug-discovery",
+        "supports": "summary, models",
+        "quality": "press"
+      },
+      {
+        "url": "https://www.businesswire.com/news/home/20230411005171/en",
+        "supports": "Somerville, MA; founded by Flagship Pioneering",
+        "quality": "primary"
+      }
+    ],
+    "founded_source": null,
+    "context_note": "",
+    "needs_verification": "",
+    "last_checked": "2026-11-06",
+    "metro": "Boston area",
+    "lat": 42.36,
+    "lon": -71.06
+  },
+  {
+    "id": "celltype",
+    "name": "CellType",
+    "type": "Startup (YC W26)",
+    "category": "Perturbation models (single-cell)",
+    "city": "New York",
+    "country": "USA",
+    "founded": "2025",
+    "website": "celltype.com",
+    "approach": "Agentic drug company / 'virtual human'",
+    "data": "Single-cell + human data",
+    "summary": "Founded by Yale's David van Dijk (Cell2Sentence co-creator); builds foundation models of human biology plus AI agents running discovery; says it works with a top-10 pharma; co-founded by David van Dijk (Yale, Cell2Sentence)",
+    "models": "Cell2Sentence lineage",
+    "open_release": "No",
+    "openness_detail": "Proprietary",
+    "pharma_partners": [],
+    "virtual_cell_challenge": "",
+    "sources": [
+      {
+        "url": "https://www.ycombinator.com/companies/celltype",
+        "supports": "summary, models",
+        "quality": "primary"
+      }
+    ],
+    "founded_source": "https://www.ycombinator.com/companies/celltype/jobs",
+    "context_note": "",
+    "needs_verification": "",
+    "last_checked": "2026-11-06",
+    "metro": "New York area",
+    "lat": 40.71,
+    "lon": -74.0
+  },
+  {
+    "id": "cellular-intelligence-ex-somite",
+    "name": "Cellular Intelligence (ex-Somite)",
+    "type": "Startup",
+    "category": "Perturbation models (single-cell)",
+    "city": "Boston / Copenhagen",
+    "country": "USA / Denmark",
+    "founded": "",
+    "website": "",
+    "approach": "Signalling perturbation",
+    "data": "Sequential signalling perturbations",
+    "summary": "Foundation model of cell signalling trained on >1M sequential signal perturbation experiments to engineer cell fate; acquired Novo Nordisk's Phase-2-ready Parkinson's cell therapy (STEM-PD) and opened a Copenhagen lab",
+    "models": "Virtual Cell Signaling model",
+    "open_release": "No",
+    "openness_detail": "Proprietary",
+    "pharma_partners": [
+      "Novo Nordisk"
+    ],
+    "virtual_cell_challenge": "",
+    "sources": [
+      {
+        "url": "https://www.bostonglobe.com/2026/05/11/business/novo-nordisk-cellular-intelligence-startup-ai/",
+        "supports": "summary, models",
+        "quality": "press"
+      }
+    ],
+    "founded_source": null,
+    "context_note": "",
+    "needs_verification": "Founding year (as Somite) and website not verified.",
+    "last_checked": "2026-11-06",
+    "metro": "Boston area",
+    "lat": 42.36,
+    "lon": -71.06
+  },
+  {
+    "id": "chan-zuckerberg-biohub-czi",
+    "name": "Chan Zuckerberg Biohub / CZI",
+    "type": "Non-profit research org",
+    "category": "Data, compute & funders",
+    "city": "Redwood City",
+    "country": "USA",
+    "founded": "",
+    "website": "biohub.org",
+    "approach": "Foundation models + open data",
+    "data": "scRNA-seq, imaging, cryo-ET, protein",
+    "summary": "Family of models in a shared representation space; Virtual Cells Platform; Virtual Biology Initiative to generate billions of cells",
+    "models": "TranscriptFormer, scGenePT, GREmLN, VariantFormer, CryoLens, scLDM, ESM, CELLxGENE",
+    "open_release": "Yes",
+    "openness_detail": "Open",
+    "pharma_partners": [],
+    "virtual_cell_challenge": "",
+    "sources": [
+      {
+        "url": "https://biohub.org/news/virtual-biology-initiative/",
+        "supports": "summary, models",
+        "quality": "primary"
+      },
+      {
+        "url": "https://doi.org/10.1126/science.aec8514",
+        "supports": "TranscriptFormer (Science 2026)",
+        "quality": "primary"
+      },
+      {
+        "url": "https://www.newswise.com/doescience/international-cross-sector-collaboration-commits-nearly-2-billion-to-build-foundational-data-for-ai-models-to-predict-and-treat-disease",
+        "supports": "$1.8B Virtual Biology Initiative expansion (DOE release, Oct 2026)",
+        "quality": "press"
+      },
+      {
+        "url": "https://www.biopharmatrend.com/business-intelligence/the-virtual-cell-tracker-whos-building-them-what-works-where-the-money-goes/",
+        "supports": "BiopharmaTrend Virtual Cell Tracker",
+        "quality": "press"
+      }
+    ],
+    "founded_source": null,
+    "context_note": "",
+    "needs_verification": "",
+    "last_checked": "2026-11-06",
+    "metro": "SF Bay Area",
+    "lat": 37.6,
+    "lon": -122.25
+  },
+  {
+    "id": "crg-centre-for-genomic-regulation",
+    "name": "CRG – Centre for Genomic Regulation",
+    "type": "Academic institute",
+    "category": "Perturbation models (single-cell)",
+    "city": "Barcelona",
+    "country": "Spain",
+    "founded": "",
+    "website": "crg.eu",
+    "approach": "Single-cell perturbation + generative gene regulation",
+    "data": "scRNA-seq perturbation, enhancer screens",
+    "summary": "Ran an institute-wide team for the 2025 Virtual Cell Challenge (Notredame lab); Velten lab built a generative AI that designs DNA enhancers controlling genes in specific cell types (Cell)",
+    "models": "VCC team; AI-designed enhancers",
+    "open_release": "Yes",
+    "openness_detail": "Open (academic)",
+    "pharma_partners": [],
+    "virtual_cell_challenge": "",
+    "sources": [
+      {
+        "url": "https://www.crg.eu/ca/node/1234009",
+        "supports": "summary, models",
+        "quality": "primary"
+      }
+    ],
+    "founded_source": null,
+    "context_note": "",
+    "needs_verification": "2025 challenge entry not found in the official 2025 results.",
+    "last_checked": "2026-11-06",
+    "metro": "Barcelona",
+    "lat": 41.39,
+    "lon": 2.17
+  },
+  {
+    "id": "cuhk-shenzhen-yuning-you-lab-upm",
+    "name": "CUHK-Shenzhen – Yuning You lab (UPM)",
+    "type": "Academic lab",
+    "category": "Perturbation models (single-cell)",
+    "city": "Shenzhen",
+    "country": "China",
+    "founded": "",
+    "website": "github.com/youlab2025",
+    "approach": "Unified perturbation model across datasets",
+    "data": "110M cells from heterogeneous Perturb-seq datasets (76 contexts, 4 perturbation types)",
+    "summary": "Integrates heterogeneous Perturb-seq datasets into one >1B-parameter predictor (UPM); reports beating State and Stack on genetic-perturbation benchmarks; open re-implementation of X-Cell",
+    "models": "UPM, Open-X-Cell",
+    "open_release": "Yes",
+    "openness_detail": "Open (code + checkpoints on GitHub)",
+    "pharma_partners": [],
+    "virtual_cell_challenge": "",
+    "sources": [
+      {
+        "url": "https://www.biorxiv.org/content/10.64898/2026.10.25.761625v1",
+        "supports": "summary, models",
+        "quality": "press"
+      },
+      {
+        "url": "https://github.com/youlab2025/UPM",
+        "supports": "Code",
+        "quality": "primary"
+      },
+      {
+        "url": "https://www.biopharmatrend.com/business-intelligence/the-virtual-cell-tracker-whos-building-them-what-works-where-the-money-goes/",
+        "supports": "Listed in BiopharmaTrend tracker",
+        "quality": "press"
+      }
+    ],
+    "founded_source": null,
+    "context_note": "Benchmark claims are self-reported (preprint).",
+    "needs_verification": "",
+    "last_checked": "2026-11-06",
+    "metro": "Shenzhen",
+    "lat": 22.54,
+    "lon": 114.06
+  },
+  {
+    "id": "cytoreason",
+    "name": "CytoReason",
+    "type": "Startup",
+    "category": "Perturbation models (single-cell)",
+    "city": "Tel Aviv",
+    "country": "Israel",
+    "founded": "",
+    "website": "cytoreason.com",
+    "approach": "Cell-centred disease models",
+    "data": "Public & partner omics, immune cell data",
+    "summary": "Computational models of disease built around cell types, used by pharma for target and patient-subtype insights",
+    "models": "Cell-centred disease models (IBD, asthma)",
+    "open_release": "No",
+    "openness_detail": "Proprietary",
+    "pharma_partners": [
+      "Pfizer",
+      "Sanofi"
+    ],
+    "virtual_cell_challenge": "",
+    "sources": [
+      {
+        "url": "https://www.pfizer.com/news/press-release/press-release-detail/cytoreason-announces-expanded-collaboration-deal-pfizer",
+        "supports": "summary, models",
+        "quality": "primary"
+      }
+    ],
+    "founded_source": null,
+    "context_note": "",
+    "needs_verification": "",
+    "last_checked": "2026-11-06",
+    "metro": "Tel Aviv",
+    "lat": 32.09,
+    "lon": 34.78
+  },
+  {
+    "id": "cz-biohub-chicago",
+    "name": "CZ Biohub Chicago",
+    "type": "Non-profit research institute",
+    "category": "Perturbation models (single-cell)",
+    "city": "Chicago",
+    "country": "USA",
+    "founded": "",
+    "website": "czbiohub.org/chi",
+    "approach": "Inflammation measurement + AI (immune)",
+    "data": "Tissue sensors, omics, imaging",
+    "summary": "Engineers molecular-level measurement of inflammation in human tissue, with AI; linked to Biohub's Virtual Immune System project",
+    "models": "Virtual Immune System (Biohub network)",
+    "open_release": "Yes",
+    "openness_detail": "Open (network)",
+    "pharma_partners": [],
+    "virtual_cell_challenge": "",
+    "sources": [
+      {
+        "url": "https://czbiohub.org/chi",
+        "supports": "summary, models",
+        "quality": "primary"
+      }
+    ],
+    "founded_source": null,
+    "context_note": "Focus is inflammation sensing; virtual-cell role is indirect.",
+    "needs_verification": "",
+    "last_checked": "2026-11-06",
+    "metro": "Chicago area",
+    "lat": 41.88,
+    "lon": -87.63
+  },
+  {
+    "id": "deeplife",
+    "name": "DeepLife",
+    "type": "Startup",
+    "category": "Perturbation models (single-cell)",
+    "city": "Paris",
+    "country": "France",
+    "founded": "",
+    "website": "deeplife.co",
+    "approach": "Causal single-cell digital twin",
+    "data": "Single-cell multi-omics atlases (>1B data points)",
+    "summary": "Causal AI + cell-type-specific networks; translates in vitro perturbation biology to patients; TwinBench benchmark",
+    "models": "TwinCell, Cell Blueprint",
+    "open_release": "No",
+    "openness_detail": "Proprietary (SaaS)",
+    "pharma_partners": [],
+    "virtual_cell_challenge": "",
+    "sources": [
+      {
+        "url": "https://www.deeplife.co/media-post/cloudscientific-and-deeplife-partner-to-bring-ai-powered-virtual-cell-technology-to-china",
+        "supports": "summary, models",
+        "quality": "primary"
+      }
+    ],
+    "founded_source": null,
+    "context_note": "",
+    "needs_verification": "",
+    "last_checked": "2026-11-06",
+    "metro": "Paris",
+    "lat": 48.86,
+    "lon": 2.35
+  },
+  {
+    "id": "eli-lilly",
+    "name": "Eli Lilly",
+    "type": "Pharma",
+    "category": "Pharma programmes",
+    "city": "Indianapolis",
+    "country": "USA",
+    "founded": "",
+    "website": "lilly.com",
+    "approach": "Data + closed-loop AI lab",
+    "data": "Single-cell (Billion Cell Atlas); robotics lab data",
+    "summary": "Founding participant in Billion Cell Atlas; NVIDIA co-innovation closed-loop AI + robotics discovery lab",
+    "models": "",
+    "open_release": "No",
+    "openness_detail": "Internal",
+    "pharma_partners": [],
+    "virtual_cell_challenge": "",
+    "sources": [
+      {
+        "url": "https://www.genengnews.com/topics/drug-discovery/ai-and-drug-discovery-get-a-boost-from-illuminas-billion-cell-atlas-release/",
+        "supports": "summary, models",
+        "quality": "press"
+      }
+    ],
+    "founded_source": null,
+    "context_note": "No public in-house virtual-cell model found.",
+    "needs_verification": "",
+    "last_checked": "2026-11-06",
+    "metro": "Indianapolis",
+    "lat": 39.77,
+    "lon": -86.16
+  },
+  {
+    "id": "elucidata",
+    "name": "Elucidata",
+    "type": "Startup (scale-up)",
+    "category": "Perturbation models (single-cell)",
+    "city": "Cambridge, MA / New Delhi",
+    "country": "USA / India",
+    "founded": "2015",
+    "website": "elucidata.io",
+    "approach": "In-silico perturbation for toxicity",
+    "data": "Harmonised tissue-specific single-cell & patient data",
+    "summary": "El-PERTURB: 'virtual CRISPR' perturbation engine trained on harmonised data to simulate toxicity and gene knockouts; Polly data platform",
+    "models": "El-PERTURB, Polly",
+    "open_release": "No",
+    "openness_detail": "Proprietary (services)",
+    "pharma_partners": [],
+    "virtual_cell_challenge": "",
+    "sources": [
+      {
+        "url": "https://www.elucidata.io/blog/ai-toxicity-prediction-failure-perturbations",
+        "supports": "summary, models",
+        "quality": "primary"
+      }
+    ],
+    "founded_source": "https://www.business-standard.com/article/news-ani/elucidata-expanding-aggressively-in-india-119061900532_1.html",
+    "context_note": "",
+    "needs_verification": "",
+    "last_checked": "2026-11-06",
+    "metro": "Boston area",
+    "lat": 42.36,
+    "lon": -71.06
+  },
+  {
+    "id": "embl-barcelona-barcelona-collaboratorium",
+    "name": "EMBL Barcelona / Barcelona Collaboratorium",
+    "type": "Academic institute",
+    "category": "Spatial & tissue models",
+    "city": "Barcelona",
+    "country": "Spain",
+    "founded": "",
+    "website": "embl.org/sites/barcelona",
+    "approach": "Tissue biology + causality & AI (hub)",
+    "data": "Imaging, tissue models",
+    "summary": "Joint CRG–EMBL initiative; hosts symposia on causality in biology and AI where Barcelona virtual-cell groups present",
+    "models": "",
+    "open_release": "Yes",
+    "openness_detail": "Open",
+    "pharma_partners": [],
+    "virtual_cell_challenge": "",
+    "sources": [
+      {
+        "url": "https://www.eurekalert.org/news-releases/1082541",
+        "supports": "summary, models",
+        "quality": "primary"
+      }
+    ],
+    "founded_source": null,
+    "context_note": "Networking/collaboration hub; no dedicated virtual-cell model found.",
+    "needs_verification": "",
+    "last_checked": "2026-11-06",
+    "metro": "Barcelona",
+    "lat": 41.39,
+    "lon": 2.17
+  },
+  {
+    "id": "epfl-brbi-lab",
+    "name": "EPFL – Brbić lab",
+    "type": "Academic lab",
+    "category": "Agents & benchmarks",
+    "city": "Lausanne",
+    "country": "Switzerland",
+    "founded": "",
+    "website": "brbiclab.epfl.ch",
+    "approach": "Evaluation of perturbation prediction",
+    "data": "Perturb-seq benchmarks; nuclear imaging + expression",
+    "summary": "Systema framework shows many perturbation predictors mostly capture systematic variation, and proposes fairer evaluation",
+    "models": "Systema, COSMIC",
+    "open_release": "Yes",
+    "openness_detail": "Open (code + weights on GitHub)",
+    "pharma_partners": [],
+    "virtual_cell_challenge": "",
+    "sources": [
+      {
+        "url": "https://doi.org/10.1038/s41587-025-02777-8",
+        "supports": "summary, models",
+        "quality": "primary"
+      }
+    ],
+    "founded_source": null,
+    "context_note": "",
+    "needs_verification": "",
+    "last_checked": "2026-11-06",
+    "metro": "Lausanne",
+    "lat": 46.52,
+    "lon": 6.63
+  },
+  {
+    "id": "epfl-bunne-lab-ai-in-molecular-medicine",
+    "name": "EPFL – Bunne lab (AI in Molecular Medicine)",
+    "type": "Academic",
+    "category": "Patient & disease models",
+    "city": "Lausanne",
+    "country": "Switzerland",
+    "founded": "",
+    "website": "epfl.ch",
+    "approach": "Spatial / virtual tissue + virtual patient",
+    "data": "Spatial proteomics (multiplex imaging), pathology, clinical",
+    "summary": "Virtual Tissues (VirTues), a foundation model for spatial proteomics across cell, niche and tissue scales (Nature 2026); leads 5-year 'Virtual Patient Labs' project; co-first author of the AIVC framework paper; advisor to Rivercell",
+    "models": "VirTues",
+    "open_release": "Yes",
+    "openness_detail": "Open",
+    "pharma_partners": [],
+    "virtual_cell_challenge": "",
+    "sources": [
+      {
+        "url": "https://ai.epfl.ch/ai-model-maps-tumor-tissue-to-improve-cancer-care/",
+        "supports": "summary, models",
+        "quality": "primary"
+      }
+    ],
+    "founded_source": null,
+    "context_note": "",
+    "needs_verification": "",
+    "last_checked": "2026-11-06",
+    "metro": "Lausanne",
+    "lat": 46.52,
+    "lon": 6.63
+  },
+  {
+    "id": "eth-zurich-r-tsch-lab",
+    "name": "ETH Zurich – Rätsch lab",
+    "type": "Academic lab",
+    "category": "Spatial & tissue models",
+    "city": "Zurich",
+    "country": "Switzerland",
+    "founded": "",
+    "website": "bmi.inf.ethz.ch",
+    "approach": "Virtual spatial transcriptomics from histology",
+    "data": "H&E images → spatial / single-cell expression",
+    "summary": "Predicts transcriptome-wide spatial gene expression, down to single cells, from routine H&E slides (DeepSpot family)",
+    "models": "DeepSpot, DeepSpot2Cell, DeepSpot-M",
+    "open_release": "Yes",
+    "openness_detail": "Open (code + weights on GitHub)",
+    "pharma_partners": [],
+    "virtual_cell_challenge": "",
+    "sources": [
+      {
+        "url": "https://openreview.net/forum?id=ofCkwXQKaz",
+        "supports": "summary, models",
+        "quality": "primary"
+      },
+      {
+        "url": "https://doi.org/10.64898/2026.06.19.26356060",
+        "supports": "DeepSpot-M preprint",
+        "quality": "primary"
+      }
+    ],
+    "founded_source": null,
+    "context_note": "",
+    "needs_verification": "",
+    "last_checked": "2026-11-06",
+    "metro": "Zurich",
+    "lat": 47.37,
+    "lon": 8.54
+  },
+  {
+    "id": "genbio-ai",
+    "name": "GenBio AI",
+    "type": "Startup",
+    "category": "Foundation & world models",
+    "city": "Palo Alto",
+    "country": "USA",
+    "founded": "",
+    "website": "genbio.ai",
+    "approach": "Multi-scale world model",
+    "data": "DNA, RNA, protein, transcriptomics (more planned)",
+    "summary": "Stateful, multi-scale world model: DNA→RNA→protein→cell; sequential perturbations build on one another; autonomous model-building agent (VCHarness)",
+    "models": "AIDO Cell (K562, HepG2), AIDO.Cell-100M",
+    "open_release": "Yes",
+    "openness_detail": "Open-leaning (preview + collaborator programme)",
+    "pharma_partners": [],
+    "virtual_cell_challenge": "",
+    "sources": [
+      {
+        "url": "https://lifespan.io/genbio-launches-a-virtual-cell-ai-model/",
+        "supports": "summary, models",
+        "quality": "press"
+      },
+      {
+        "url": "https://www.biopharmatrend.com/business-intelligence/the-virtual-cell-tracker-whos-building-them-what-works-where-the-money-goes/",
+        "supports": "AIDO Cell listed in tracker",
+        "quality": "press"
+      }
+    ],
+    "founded_source": null,
+    "context_note": "",
+    "needs_verification": "",
+    "last_checked": "2026-11-06",
+    "metro": "SF Bay Area",
+    "lat": 37.6,
+    "lon": -122.25
+  },
+  {
+    "id": "genentech-roche-aviv-regev",
+    "name": "Genentech / Roche (Aviv Regev)",
+    "type": "Pharma",
+    "category": "Pharma programmes",
+    "city": "South San Francisco",
+    "country": "USA",
+    "founded": "",
+    "website": "gene.com",
+    "approach": "Lab-in-the-loop / framework",
+    "data": "Perturbation screens, multi-omics",
+    "summary": "Co-authored AI Virtual Cell framework (Cell 2024); 'Lab in a Loop' ML across discovery",
+    "models": "AIVC framework, PRESAGE",
+    "open_release": "No",
+    "openness_detail": "Internal",
+    "pharma_partners": [],
+    "virtual_cell_challenge": "",
+    "sources": [
+      {
+        "url": "https://arxiv.org/html/2409.11654v2",
+        "supports": "summary, models",
+        "quality": "primary"
+      },
+      {
+        "url": "https://arxiv.org/abs/2502.21290",
+        "supports": "PerturbQA (ICLR 2025)",
+        "quality": "primary"
+      },
+      {
+        "url": "https://arxiv.org/abs/2605.10876",
+        "supports": "AssayBench virtual-cell benchmark",
+        "quality": "primary"
+      },
+      {
+        "url": "https://www.biorxiv.org/content/10.1101/2025.06.03.657653",
+        "supports": "PRESAGE perturbation model",
+        "quality": "press"
+      }
+    ],
+    "founded_source": null,
+    "context_note": "",
+    "needs_verification": "",
+    "last_checked": "2026-11-06",
+    "metro": "SF Bay Area",
+    "lat": 37.6,
+    "lon": -122.25
+  },
+  {
+    "id": "gladstone-institutes-theodoris-lab",
+    "name": "Gladstone Institutes – Theodoris lab",
+    "type": "Non-profit research institute",
+    "category": "Foundation & world models",
+    "city": "San Francisco",
+    "country": "USA",
+    "founded": "",
+    "website": "gladstone.org",
+    "approach": "Single-cell foundation model",
+    "data": "scRNA-seq",
+    "summary": "Transformer pretrained on millions of single-cell transcriptomes; in silico perturbation",
+    "models": "Geneformer",
+    "open_release": "Yes",
+    "openness_detail": "Open",
+    "pharma_partners": [],
+    "virtual_cell_challenge": "",
+    "sources": [
+      {
+        "url": "https://doi.org/10.1038/s41586-023-06139-9",
+        "supports": "summary, models",
+        "quality": "primary"
+      }
+    ],
+    "founded_source": null,
+    "context_note": "",
+    "needs_verification": "",
+    "last_checked": "2026-11-06",
+    "metro": "SF Bay Area",
+    "lat": 37.6,
+    "lon": -122.25
+  },
+  {
+    "id": "google-deepmind",
+    "name": "Google DeepMind",
+    "type": "Big tech AI lab",
+    "category": "Perturbation models (single-cell)",
+    "city": "London",
+    "country": "UK",
+    "founded": "",
+    "website": "deepmind.google",
+    "approach": "Virtual cell (undisclosed method)",
+    "data": "Multimodal (expected)",
+    "summary": "Confirmed virtual cell project; co-funder of Biohub initiative",
+    "models": "Not yet public",
+    "open_release": "—",
+    "openness_detail": "TBD",
+    "pharma_partners": [],
+    "virtual_cell_challenge": "",
+    "sources": [
+      {
+        "url": "https://analyticsindiamag.com/ai-features/inside-google-deepminds-bold-vision-for-virtual-cell/",
+        "supports": "summary, models",
+        "quality": "press"
+      },
+      {
+        "url": "https://www.newswise.com/doescience/international-cross-sector-collaboration-commits-nearly-2-billion-to-build-foundational-data-for-ai-models-to-predict-and-treat-disease",
+        "supports": "VBI co-funder",
+        "quality": "press"
+      }
+    ],
+    "founded_source": null,
+    "context_note": "No public virtual-cell model yet; method unknown.",
+    "needs_verification": "",
+    "last_checked": "2026-11-06",
+    "metro": "London",
+    "lat": 51.51,
+    "lon": -0.13
+  },
+  {
+    "id": "google-research-yale-c2s-scale",
+    "name": "Google Research + Yale (C2S-Scale)",
+    "type": "Big tech + academic",
+    "category": "Foundation & world models",
+    "city": "Mountain View / New Haven",
+    "country": "USA",
+    "founded": "",
+    "website": "research.google",
+    "approach": "LLM over single cells ('cell sentences')",
+    "data": "scRNA-seq (50M+ cells) + literature",
+    "summary": "Turns ranked gene expression into text so an LLM (Gemma, 27B) can predict cell responses and generate hypotheses; a predicted drug effect on tumour antigen presentation was validated in cells",
+    "models": "C2S-Scale 27B (open weights)",
+    "open_release": "Yes",
+    "openness_detail": "Open",
+    "pharma_partners": [],
+    "virtual_cell_challenge": "",
+    "sources": [
+      {
+        "url": "https://blog.google/technology/research/cell2sentence-scale/",
+        "supports": "summary, models",
+        "quality": "primary"
+      },
+      {
+        "url": "https://doi.org/10.1101/2025.04.14.648850",
+        "supports": "C2S-Scale preprint",
+        "quality": "primary"
+      }
+    ],
+    "founded_source": null,
+    "context_note": "",
+    "needs_verification": "",
+    "last_checked": "2026-11-06",
+    "metro": "SF Bay Area",
+    "lat": 37.6,
+    "lon": -122.25
+  },
+  {
+    "id": "graph-therapeutics",
+    "name": "Graph Therapeutics",
+    "type": "Startup",
+    "category": "Patient & disease models",
+    "city": "Vienna",
+    "country": "Austria",
+    "founded": "",
+    "website": "graphtx.com",
+    "approach": "Immune perturbation atlas + lab-in-the-loop AI",
+    "data": "Primary patient immune cells, ex vivo perturbation, single-cell (Parse GigaLab)",
+    "summary": "Active learning selects which perturbations to test on patient-derived immune cells; with Parse, profiling hundreds of millions of cells into an immune perturbation atlas for target discovery",
+    "models": "",
+    "open_release": "—",
+    "openness_detail": "No",
+    "pharma_partners": [],
+    "virtual_cell_challenge": "",
+    "sources": [
+      {
+        "url": "https://www.businesswire.com/news/home/20260120419953/en",
+        "supports": "summary, models",
+        "quality": "primary"
+      },
+      {
+        "url": "https://projekte.ffg.at/projekt/829a473e-f36b-1410-8630-00d3c07d99bb/pdf",
+        "supports": "Ex vivo perturbation platform for RA and SLE",
+        "quality": "press"
+      }
+    ],
+    "founded_source": null,
+    "context_note": "",
+    "needs_verification": "Founding year and funding not verified.",
+    "last_checked": "2026-11-06",
+    "metro": "Vienna",
+    "lat": 48.21,
+    "lon": 16.37
+  },
+  {
+    "id": "gsk",
+    "name": "GSK",
+    "type": "Pharma",
+    "category": "Pharma programmes",
+    "city": "London",
+    "country": "UK",
+    "founded": "",
+    "website": "gsk.com",
+    "approach": "In-house AI + licensing/data deals",
+    "data": "Spatial (via Noetik), multi-omic perturbation (via Relation)",
+    "summary": "In-house AI/ML team (Chief AI Officer Kim Branson) fine-tunes licensed virtual cell models on GSK data; pays partners to generate perturbation training data",
+    "models": "Licensed OCTO-VC; MORGAN collaboration",
+    "open_release": "No",
+    "openness_detail": "Internal",
+    "pharma_partners": [],
+    "virtual_cell_challenge": "",
+    "sources": [
+      {
+        "url": "https://www.americanpharmaceuticalreview.com/1315-News/627768-Noetik-Reaches-First-Milestone-in-GSK-Oncology-AI-Collaboration/",
+        "supports": "summary, models",
+        "quality": "press"
+      }
+    ],
+    "founded_source": null,
+    "context_note": "",
+    "needs_verification": "",
+    "last_checked": "2026-11-06",
+    "metro": "London",
+    "lat": 51.51,
+    "lon": -0.13
+  },
+  {
+    "id": "harvard-medical-school-zitnik-lab",
+    "name": "Harvard Medical School – Zitnik lab",
+    "type": "Academic lab",
+    "category": "Perturbation models (single-cell)",
+    "city": "Boston",
+    "country": "USA",
+    "founded": "",
+    "website": "zitniklab.hms.harvard.edu",
+    "approach": "Perturbation prediction with graph models",
+    "data": "Perturbation transcriptomics, knowledge graphs, spatial",
+    "summary": "Causally inspired graph networks predict which combination of perturbations shifts a diseased cell state to healthy (PDGrapher); spatial perturbation responses (CONCERT)",
+    "models": "PDGrapher, CONCERT, ProCyon",
+    "open_release": "Yes",
+    "openness_detail": "Open (code + weights on GitHub)",
+    "pharma_partners": [],
+    "virtual_cell_challenge": "",
+    "sources": [
+      {
+        "url": "https://doi.org/10.1038/s41551-025-01481-x",
+        "supports": "summary, models",
+        "quality": "primary"
+      },
+      {
+        "url": "https://doi.org/10.1101/2025.11.08.686890",
+        "supports": "CONCERT preprint",
+        "quality": "primary"
+      }
+    ],
+    "founded_source": null,
+    "context_note": "",
+    "needs_verification": "",
+    "last_checked": "2026-11-06",
+    "metro": "Boston area",
+    "lat": 42.36,
+    "lon": -71.06
+  },
+  {
+    "id": "helmholtz-munich-theis-lab",
+    "name": "Helmholtz Munich – Theis lab",
+    "type": "Academic institute",
+    "category": "Perturbation models (single-cell)",
+    "city": "Munich",
+    "country": "Germany",
+    "founded": "",
+    "website": "",
+    "approach": "Single-cell perturbation (generative)",
+    "data": "scRNA-seq, spatial",
+    "summary": "Flow-matching generative perturbation model for drugs, cytokines, gene edits and organoid protocols; spatial foundation model",
+    "models": "CellFlow, Nicheformer, scConcept",
+    "open_release": "Yes",
+    "openness_detail": "Open",
+    "pharma_partners": [],
+    "virtual_cell_challenge": "",
+    "sources": [
+      {
+        "url": "https://www.csail.mit.edu/node/13871",
+        "supports": "summary, models",
+        "quality": "primary"
+      },
+      {
+        "url": "https://doi.org/10.1016/j.cell.2026.04.022",
+        "supports": "RegVelo (Cell 2026)",
+        "quality": "primary"
+      }
+    ],
+    "founded_source": null,
+    "context_note": "",
+    "needs_verification": "",
+    "last_checked": "2026-11-06",
+    "metro": "Munich",
+    "lat": 48.14,
+    "lon": 11.58
+  },
+  {
+    "id": "illumina",
+    "name": "Illumina",
+    "type": "Public company (genomics)",
+    "category": "Data, compute & funders",
+    "city": "San Diego",
+    "country": "USA",
+    "founded": "",
+    "website": "illumina.com",
+    "approach": "Data infrastructure",
+    "data": "Single-cell transcriptomics at billion-cell scale",
+    "summary": "BioInsight AI Lab builds a genome-wide CRISPR perturbation atlas with pharma partners (AstraZeneca, Merck, Lilly, Formation Bio) and the CellularAI response-prediction model; won the 2026 Virtual Cell Challenge",
+    "models": "Billion Cell Atlas (CRISPR perturbation, 1B cells, >200 cell lines), CellularAI",
+    "open_release": "—",
+    "openness_detail": "Partner access",
+    "pharma_partners": [
+      "AstraZeneca",
+      "Lilly",
+      "Merck"
+    ],
+    "virtual_cell_challenge": "2026: winner (final rank 1/806)",
+    "sources": [
+      {
+        "url": "https://www.genengnews.com/topics/drug-discovery/ai-and-drug-discovery-get-a-boost-from-illuminas-billion-cell-atlas-release/",
+        "supports": "summary, models",
+        "quality": "press"
+      },
+      {
+        "url": "https://www.biopharmatrend.com/business-intelligence/the-virtual-cell-tracker-whos-building-them-what-works-where-the-money-goes/",
+        "supports": "Billion-cell CRISPR atlas with AstraZeneca, Merck, Lilly",
+        "quality": "press"
+      },
+      {
+        "url": "https://prnewswire.com/news-releases/illumina-wins-virtual-cell-challenge-powered-by-billion-cell-atlas-302946270.html",
+        "supports": "Won 2026 Virtual Cell Challenge with CellularAI",
+        "quality": "press"
+      },
+      {
+        "url": "https://www.illumina.com/company/news-center/press-releases/2026/fda84c92-b4b3-4691-a402-35555abe8605.html",
+        "supports": "Billion Cell Atlas launch",
+        "quality": "press"
+      },
+      {
+        "url": "https://virtualcellchallenge.org/leaderboard",
+        "supports": "Virtual Cell Challenge 2026 leaderboard",
+        "quality": "press"
+      }
+    ],
+    "founded_source": null,
+    "context_note": "",
+    "needs_verification": "",
+    "last_checked": "2026-11-06",
+    "metro": "San Diego",
+    "lat": 32.72,
+    "lon": -117.16
+  },
+  {
+    "id": "infevo",
+    "name": "INFevo (无界进化)",
+    "type": "Startup (XtalPi-incubated)",
+    "category": "Perturbation models (single-cell)",
+    "city": "Beijing",
+    "country": "China",
+    "founded": "",
+    "website": "",
+    "approach": "Single-cell perturbation",
+    "data": "Transcriptomic perturbation (chemical, genetic, cytokine)",
+    "summary": "Virtual cell model reported SOTA on three perturbation benchmarks; paired with automated cell lab and autonomous discovery engine",
+    "models": "OCOO-T, The Popper Project",
+    "open_release": "Partial",
+    "openness_detail": "Preprint (arXiv)",
+    "pharma_partners": [],
+    "virtual_cell_challenge": "",
+    "sources": [
+      {
+        "url": "https://n.yam.com/Article/20260717995983",
+        "supports": "summary, models",
+        "quality": "primary"
+      },
+      {
+        "url": "https://dealroom.co/news/173187-china-s-infevo-raises-15m-early-round-for-virtual-cell-ai/",
+        "supports": "Pre-A Nov 2026; incubated by XtalPi",
+        "quality": "press"
+      }
+    ],
+    "founded_source": null,
+    "context_note": "SOTA claim is self-reported (arXiv preprint).",
+    "needs_verification": "",
+    "last_checked": "2026-11-06",
+    "metro": "Beijing",
+    "lat": 39.9,
+    "lon": 116.4
+  },
+  {
+    "id": "insilico-medicine",
+    "name": "Insilico Medicine",
+    "type": "Company (AI drug discovery)",
+    "category": "Foundation & world models",
+    "city": "Boston / Hong Kong",
+    "country": "USA / China",
+    "founded": "",
+    "website": "insilico.com",
+    "approach": "Generative virtual cell with biological age",
+    "data": "Multi-omics across species, tissues and ages",
+    "summary": "Virtual Aging Cell (preview): a generative cell model you can perturb in silico, conditioned on species, tissue, age and compound, predicting multi-omic response and biological age",
+    "models": "Virtual Aging Cell, Precious LLMs",
+    "open_release": "—",
+    "openness_detail": "No (preview demo)",
+    "pharma_partners": [],
+    "virtual_cell_challenge": "",
+    "sources": [
+      {
+        "url": "https://virtualcell.insilico.com/",
+        "supports": "summary, models",
+        "quality": "press"
+      },
+      {
+        "url": "https://longevity.technology/news/virtual-cells-learn-to-grow-old/",
+        "supports": "Virtual Aging Cell preview",
+        "quality": "press"
+      }
+    ],
+    "founded_source": null,
+    "context_note": "Insilico itself calls the public demo evidence for the model class, not a validated product.",
+    "needs_verification": "Founding year from general knowledge.",
+    "last_checked": "2026-11-06",
+    "metro": "Boston area",
+    "lat": 42.36,
+    "lon": -71.06
+  },
+  {
+    "id": "insitro",
+    "name": "insitro",
+    "type": "Startup",
+    "category": "Adjacent",
+    "city": "South San Francisco",
+    "country": "USA",
+    "founded": "",
+    "website": "insitro.com",
+    "approach": "ML + cellular disease models",
+    "data": "In vitro cellular data + clinical data",
+    "summary": "ML on high-throughput cellular models (incl. imaging) linked to human data",
+    "models": "CP-POSH (pooled Cell Painting screens), SAMS-VAE",
+    "open_release": "No",
+    "openness_detail": "Proprietary",
+    "pharma_partners": [],
+    "virtual_cell_challenge": "",
+    "sources": [
+      {
+        "url": "https://doi.org/10.1038/s41467-025-66778-6",
+        "supports": "summary, models",
+        "quality": "primary"
+      }
+    ],
+    "founded_source": null,
+    "context_note": "No programme branded 'virtual cell'; evidence is platform papers (pooled Cell Painting CRISPR screens).",
+    "needs_verification": "",
+    "last_checked": "2026-11-06",
+    "metro": "SF Bay Area",
+    "lat": 37.6,
+    "lon": -122.25
+  },
+  {
+    "id": "institut-pasteur-cantini-lab-ml4ig",
+    "name": "Institut Pasteur – Cantini lab (ML4IG)",
+    "type": "Academic lab",
+    "category": "Foundation & world models",
+    "city": "Paris",
+    "country": "France",
+    "founded": "",
+    "website": "research.pasteur.fr/en/team/machine-learning-for-integrative-genomics",
+    "approach": "Single-cell foundation model for gene networks",
+    "data": "scRNA-seq (50M cells, CELLxGENE), spatial",
+    "summary": "Large cell model pre-trained to infer cell-type-specific gene regulatory networks, plus zero-shot denoising and annotation (scPRINT); cell-fate landscapes from spatial data (STORIES)",
+    "models": "scPRINT, scPRINT-2, STORIES, BenGRN",
+    "open_release": "Yes",
+    "openness_detail": "Open (code + weights on GitHub)",
+    "pharma_partners": [],
+    "virtual_cell_challenge": "",
+    "sources": [
+      {
+        "url": "https://doi.org/10.1038/s41467-025-58699-1",
+        "supports": "summary, models",
+        "quality": "primary"
+      },
+      {
+        "url": "https://github.com/cantinilab",
+        "supports": "Lab at Institut Pasteur, Paris",
+        "quality": "primary"
+      }
+    ],
+    "founded_source": null,
+    "context_note": "",
+    "needs_verification": "",
+    "last_checked": "2026-11-06",
+    "metro": "Paris",
+    "lat": 48.86,
+    "lon": 2.35
+  },
+  {
+    "id": "irb-barcelona-aloy-lab-sbnb",
+    "name": "IRB Barcelona – Aloy lab (SBNB)",
+    "type": "Academic institute",
+    "category": "Perturbation models (single-cell)",
+    "city": "Barcelona",
+    "country": "Spain",
+    "founded": "",
+    "website": "irbbarcelona.org",
+    "approach": "Single-cell perturbation + generative chemistry",
+    "data": "scRNA-seq perturbation, cell-line phenotypes",
+    "summary": "Uses single-cell foundation models to represent perturbations; generative framework designs molecules from the desired effect in specific cell types (phenotypic, target-free)",
+    "models": "Perturbation representation work; cell-selective molecule design (Comm. Chem. 2026)",
+    "open_release": "Yes",
+    "openness_detail": "Open (academic)",
+    "pharma_partners": [],
+    "virtual_cell_challenge": "",
+    "sources": [
+      {
+        "url": "https://www.eurekalert.org/news-releases/1130545",
+        "supports": "summary, models",
+        "quality": "primary"
+      }
+    ],
+    "founded_source": null,
+    "context_note": "",
+    "needs_verification": "",
+    "last_checked": "2026-11-06",
+    "metro": "Barcelona",
+    "lat": 41.39,
+    "lon": 2.17
+  },
+  {
+    "id": "isomorphic-labs",
+    "name": "Isomorphic Labs",
+    "type": "Big-tech spin-out",
+    "category": "Data, compute & funders",
+    "city": "London",
+    "country": "UK",
+    "founded": "",
+    "website": "isomorphiclabs.com",
+    "approach": "Funder / data partner",
+    "data": "Multimodal (via Biohub initiative)",
+    "summary": "Founding member of Biohub's Virtual Biology Initiative (with DeepMind and Meta, $300M combined); core business is AI molecule design",
+    "models": "",
+    "open_release": "No",
+    "openness_detail": "Proprietary",
+    "pharma_partners": [],
+    "virtual_cell_challenge": "",
+    "sources": [
+      {
+        "url": "https://pharmaphorum.com/news/biohub-raises-18bn-its-virtual-biology-initiative",
+        "supports": "summary, models",
+        "quality": "press"
+      },
+      {
+        "url": "https://www.newswise.com/doescience/international-cross-sector-collaboration-commits-nearly-2-billion-to-build-foundational-data-for-ai-models-to-predict-and-treat-disease",
+        "supports": "VBI co-funder",
+        "quality": "press"
+      }
+    ],
+    "founded_source": null,
+    "context_note": "No own virtual-cell model announced.",
+    "needs_verification": "",
+    "last_checked": "2026-11-06",
+    "metro": "London",
+    "lat": 51.51,
+    "lon": -0.13
+  },
+  {
+    "id": "merck-co-msd",
+    "name": "Merck & Co. (MSD)",
+    "type": "Pharma",
+    "category": "Pharma programmes",
+    "city": "Rahway, NJ",
+    "country": "USA",
+    "founded": "",
+    "website": "merck.com",
+    "approach": "In-house virtual cell + patient data",
+    "data": "Clinical, genomic, spatial & multimodal data; single-cell",
+    "summary": "Building AI virtual cell technologies validated on Mayo Clinic multimodal data (IBD, atopic dermatitis, MS); co-developed TEDDY single-cell foundation models; Billion Cell Atlas participant; Turbine virtual patients",
+    "models": "TEDDY (70M–400M params, 116M cells)",
+    "open_release": "Partial",
+    "openness_detail": "Internal (TEDDY published)",
+    "pharma_partners": [],
+    "virtual_cell_challenge": "",
+    "sources": [
+      {
+        "url": "https://www.merck.com/?p=3685570",
+        "supports": "summary, models",
+        "quality": "primary"
+      }
+    ],
+    "founded_source": null,
+    "context_note": "",
+    "needs_verification": "",
+    "last_checked": "2026-11-06",
+    "metro": "New York area",
+    "lat": 40.71,
+    "lon": -74.0
+  },
+  {
+    "id": "meta",
+    "name": "Meta",
+    "type": "Big tech",
+    "category": "Data, compute & funders",
+    "city": "Menlo Park",
+    "country": "USA",
+    "founded": "",
+    "website": "about.meta.com",
+    "approach": "Funder (data infrastructure)",
+    "data": "",
+    "summary": "Co-funds the Biohub Virtual Biology Initiative ($300M jointly with Google DeepMind and Isomorphic Labs) in return for early data access",
+    "models": "",
+    "open_release": "—",
+    "openness_detail": "—",
+    "pharma_partners": [],
+    "virtual_cell_challenge": "",
+    "sources": [
+      {
+        "url": "https://www.newswise.com/doescience/international-cross-sector-collaboration-commits-nearly-2-billion-to-build-foundational-data-for-ai-models-to-predict-and-treat-disease",
+        "supports": "summary, models",
+        "quality": "press"
+      },
+      {
+        "url": "https://pharmaphorum.com/news/biohub-raises-18bn-its-virtual-biology-initiative",
+        "supports": "VBI funders",
+        "quality": "press"
+      }
+    ],
+    "founded_source": null,
+    "context_note": "No own virtual-cell model announced; included as a funder.",
+    "needs_verification": "",
+    "last_checked": "2026-11-06",
+    "metro": "SF Bay Area",
+    "lat": 37.6,
+    "lon": -122.25
+  },
+  {
+    "id": "microsoft-research-new-england",
+    "name": "Microsoft Research (New England)",
+    "type": "Corporate AI research lab",
+    "category": "Agents & benchmarks",
+    "city": "Cambridge, MA",
+    "country": "USA",
+    "founded": "",
+    "website": "microsoft.com/research",
+    "approach": "Benchmarks and generative imaging models",
+    "data": "Cell Painting / microscopy, scRNA-seq",
+    "summary": "Critical evaluations of cell foundation models (zero-shot scFM evaluation, MorphoHELM imaging benchmark) and generative microscopy models (Vermeer)",
+    "models": "MorphoHELM, Vermeer, zero-shot scFM evaluation",
+    "open_release": "Yes",
+    "openness_detail": "Open (code + data on GitHub)",
+    "pharma_partners": [],
+    "virtual_cell_challenge": "",
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2605.15383",
+        "supports": "summary, models",
+        "quality": "primary"
+      },
+      {
+        "url": "https://doi.org/10.1186/s13059-025-03574-x",
+        "supports": "Zero-shot evaluation of single-cell foundation models",
+        "quality": "primary"
+      }
+    ],
+    "founded_source": null,
+    "context_note": "",
+    "needs_verification": "Lab location inferred from author affiliations.",
+    "last_checked": "2026-11-06",
+    "metro": "Boston area",
+    "lat": 42.36,
+    "lon": -71.06
+  },
+  {
+    "id": "myllia-biotechnology",
+    "name": "Myllia Biotechnology",
+    "type": "Startup (CeMM spin-out)",
+    "category": "Data, compute & funders",
+    "city": "Vienna",
+    "country": "Austria",
+    "founded": "",
+    "website": "myllia.com",
+    "approach": "Perturbation data provider (single-cell CRISPR screens)",
+    "data": "CROP-seq / Perturb-seq in primary human immune cells and cell lines",
+    "summary": "Generates large single-cell CRISPR perturbation datasets for training and benchmarking virtual cell models; contributed data to Arc’s State model and runs its own prediction challenge",
+    "models": "VISTA platform, “Echoes of Silenced Genes” challenge",
+    "open_release": "Partial",
+    "openness_detail": "Partly open (challenge data)",
+    "pharma_partners": [],
+    "virtual_cell_challenge": "",
+    "sources": [
+      {
+        "url": "https://www.biospace.com/press-releases/myllia-biotechnology-launches-global-virtual-cell-challenge-echoes-of-silenced-genes",
+        "supports": "summary, models",
+        "quality": "primary"
+      },
+      {
+        "url": "https://www.viennabiocenter.org/companies/biotech-companies/myllia-biotechnology/",
+        "supports": "Single-cell CRISPR screens, Vienna",
+        "quality": "press"
+      }
+    ],
+    "founded_source": null,
+    "context_note": "",
+    "needs_verification": "Founding year and funding not verified.",
+    "last_checked": "2026-11-06",
+    "metro": "Vienna",
+    "lat": 48.21,
+    "lon": 16.37
+  },
+  {
+    "id": "new-york-genome-center-satija-lab",
+    "name": "New York Genome Center – Satija lab",
+    "type": "Academic lab",
+    "category": "Perturbation models (single-cell)",
+    "city": "New York",
+    "country": "USA",
+    "founded": "",
+    "website": "satijalab.org",
+    "approach": "Single-cell perturbation methods",
+    "data": "Perturb-seq / scalable single-cell CRISPR screens",
+    "summary": "Methods that quantify and map transcriptional responses to perturbations (Mixscale, RNA fingerprinting); authors of Seurat",
+    "models": "Mixscale, RNA fingerprinting, Seurat",
+    "open_release": "Yes",
+    "openness_detail": "Open (code + weights on GitHub)",
+    "pharma_partners": [],
+    "virtual_cell_challenge": "",
+    "sources": [
+      {
+        "url": "https://doi.org/10.1016/j.cell.2026.09.017",
+        "supports": "summary, models",
+        "quality": "primary"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41556-025-01622-z",
+        "supports": "Mixscale (Nat Cell Biol 2025)",
+        "quality": "primary"
+      }
+    ],
+    "founded_source": null,
+    "context_note": "",
+    "needs_verification": "",
+    "last_checked": "2026-11-06",
+    "metro": "New York area",
+    "lat": 40.71,
+    "lon": -74.0
+  },
+  {
+    "id": "newlimit",
+    "name": "NewLimit",
+    "type": "Startup (longevity)",
+    "category": "Perturbation models (single-cell)",
+    "city": "South San Francisco",
+    "country": "USA",
+    "founded": "2021",
+    "website": "newlimit.com",
+    "approach": "Lab-in-the-loop perturbation",
+    "data": "Single-cell genomics (reprogramming screens)",
+    "summary": "In-house models simulate and rank experimental conditions; tested candidates feed back to improve models",
+    "models": "Epigenetic reprogramming models",
+    "open_release": "No",
+    "openness_detail": "Proprietary",
+    "pharma_partners": [],
+    "virtual_cell_challenge": "",
+    "sources": [
+      {
+        "url": "https://www.biospace.com/business/newlimit-snags-435m-after-seeing-age-reversal-in-human-liver-cells",
+        "supports": "summary, models",
+        "quality": "primary"
+      },
+      {
+        "url": "https://finance.yahoo.com/sectors/healthcare/articles/newlimit-raises-435m-series-c-145642833.html",
+        "supports": "$3.1B valuation",
+        "quality": "press"
+      }
+    ],
+    "founded_source": "https://trysignalbase.com/news/funding/newlimit-raises-4350m-to",
+    "context_note": "",
+    "needs_verification": "",
+    "last_checked": "2026-11-06",
+    "metro": "SF Bay Area",
+    "lat": 37.6,
+    "lon": -122.25
+  },
+  {
+    "id": "noetik",
+    "name": "Noetik",
+    "type": "Startup",
+    "category": "Patient & disease models",
+    "city": "San Francisco",
+    "country": "USA",
+    "founded": "2022",
+    "website": "noetik.ai",
+    "approach": "Spatial / patient tissue",
+    "data": "Spatial transcriptomics & proteomics, H&E, exomes",
+    "summary": "Masked-token transformer simulates a virtual cell placed in real patient tissue; TARIO-2 predicts spatial expression from H&E alone",
+    "models": "OCTO-VC, Celleporter, TARIO-2",
+    "open_release": "No",
+    "openness_detail": "Proprietary (licensed)",
+    "pharma_partners": [
+      "GSK"
+    ],
+    "virtual_cell_challenge": "",
+    "sources": [
+      {
+        "url": "https://www.biopharmatrend.com/news/gsk-licenses-ai-based-virtual-cell-models-from-noetik-in-five-year-oncology-research-agreement-1446/",
+        "supports": "summary, models",
+        "quality": "press"
+      },
+      {
+        "url": "https://businesswire.com/news/home/20230907509972/en",
+        "supports": "$14M seed, founders, San Francisco",
+        "quality": "primary"
+      },
+      {
+        "url": "https://www.biopharmatrend.com/business-intelligence/the-virtual-cell-tracker-whos-building-them-what-works-where-the-money-goes/",
+        "supports": "OCTO-VC; GSK licence $50M upfront, first milestone Aug 2026",
+        "quality": "press"
+      }
+    ],
+    "founded_source": "https://businesswire.com/news/home/20230907509972/en",
+    "context_note": "",
+    "needs_verification": "Training-set size differs across sources (~40M vs ~200M cells).",
+    "last_checked": "2026-11-06",
+    "metro": "SF Bay Area",
+    "lat": 37.6,
+    "lon": -122.25
+  },
+  {
+    "id": "novartis",
+    "name": "Novartis",
+    "type": "Pharma",
+    "category": "Pharma programmes",
+    "city": "Basel",
+    "country": "Switzerland",
+    "founded": "",
+    "website": "novartis.com",
+    "approach": "Single-cell foundation model (in-silico perturbation)",
+    "data": "Single-cell multi-omics",
+    "summary": "Biomedical Research team steers a multi-omics single-cell foundation model at inference time (MCMC) to simulate perturbations",
+    "models": "CellxPert (May 2026)",
+    "open_release": "Partial",
+    "openness_detail": "Published preprint",
+    "pharma_partners": [],
+    "virtual_cell_challenge": "",
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2605.00930",
+        "supports": "summary, models",
+        "quality": "primary"
+      },
+      {
+        "url": "https://doi.org/10.1101/2025.05.11.653338",
+        "supports": "scISP preprint (Novartis authors)",
+        "quality": "primary"
+      }
+    ],
+    "founded_source": null,
+    "context_note": "Programme size not public; evidence is published papers.",
+    "needs_verification": "",
+    "last_checked": "2026-11-06",
+    "metro": "Basel",
+    "lat": 47.56,
+    "lon": 7.59
+  },
+  {
+    "id": "novo-nordisk",
+    "name": "Novo Nordisk",
+    "type": "Pharma",
+    "category": "Pharma programmes",
+    "city": "Bagsværd (Copenhagen)",
+    "country": "Denmark",
+    "founded": "",
+    "website": "novonordisk.com",
+    "approach": "In-house single-cell models",
+    "data": "Single-cell data; Gefion supercomputer",
+    "summary": "With NVIDIA and Denmark's Gefion supercomputer, building single-cell models to predict cellular responses to drug candidates; handed its Parkinson's cell therapy to Cellular Intelligence (with equity stake)",
+    "models": "",
+    "open_release": "No",
+    "openness_detail": "Internal",
+    "pharma_partners": [],
+    "virtual_cell_challenge": "",
+    "sources": [
+      {
+        "url": "https://pharmaphorum.com/news/novo-nordisk-teams-nvidia-ai-models",
+        "supports": "summary, models",
+        "quality": "press"
+      }
+    ],
+    "founded_source": null,
+    "context_note": "Scale of the single-cell modelling programme not public.",
+    "needs_verification": "",
+    "last_checked": "2026-11-06",
+    "metro": "Copenhagen",
+    "lat": 55.68,
+    "lon": 12.57
+  },
+  {
+    "id": "nvidia",
+    "name": "NVIDIA",
+    "type": "Big tech",
+    "category": "Data, compute & funders",
+    "city": "Santa Clara",
+    "country": "USA",
+    "founded": "",
+    "website": "nvidia.com",
+    "approach": "Infrastructure / enabler",
+    "data": "",
+    "summary": "Compute, BioNeMo platform, CZI & GenBio collaborations, Virtual Cell Challenge sponsor",
+    "models": "BioNeMo, Clara models",
+    "open_release": "Partial",
+    "openness_detail": "Mixed",
+    "pharma_partners": [],
+    "virtual_cell_challenge": "Sponsor",
+    "sources": [
+      {
+        "url": "https://www.news-medical.net/news/20251028/CZI-and-NVIDIA-collaborate-to-accelerate-life-science-research-through-virtual-cell-models.aspx",
+        "supports": "summary, models",
+        "quality": "press"
+      }
+    ],
+    "founded_source": null,
+    "context_note": "",
+    "needs_verification": "",
+    "last_checked": "2026-11-06",
+    "metro": "SF Bay Area",
+    "lat": 37.6,
+    "lon": -122.25
+  },
+  {
+    "id": "owkin",
+    "name": "Owkin",
+    "type": "Startup (scale-up)",
+    "category": "Patient & disease models",
+    "city": "Paris / New York",
+    "country": "France / USA",
+    "founded": "",
+    "website": "owkin.com",
+    "approach": "Multimodal patient data + agentic AI",
+    "data": "Multimodal patient data (federated), MOSAIC multi-omics atlas",
+    "summary": "Biological reasoning LLM and AI agents over multimodal patient data; incubated Bioptimus; Sanofi multi-year agentic AI deal",
+    "models": "OwkinZero, K Pro, MOSAIC atlas",
+    "open_release": "No",
+    "openness_detail": "Proprietary",
+    "pharma_partners": [
+      "Sanofi"
+    ],
+    "virtual_cell_challenge": "",
+    "sources": [
+      {
+        "url": "https://www.owkin.com/newsfeed/owkin-to-build-ai-agents-as-part-of-a-multi-year-k-pro-collaboration-with-sanofi",
+        "supports": "summary, models",
+        "quality": "primary"
+      }
+    ],
+    "founded_source": null,
+    "context_note": "Not a virtual-cell company per se (patient data + AI agents).",
+    "needs_verification": "",
+    "last_checked": "2026-11-06",
+    "metro": "Paris",
+    "lat": 48.86,
+    "lon": 2.35
+  },
+  {
+    "id": "parse-biosciences",
+    "name": "Parse Biosciences",
+    "type": "Company (single-cell tools; being acquired by Qiagen)",
+    "category": "Data, compute & funders",
+    "city": "Seattle",
+    "country": "USA",
+    "founded": "",
+    "website": "parsebiosciences.com",
+    "approach": "Data infrastructure (large-scale single-cell sequencing)",
+    "data": "Combinatorial-barcoding scRNA-seq (Evercode), GigaLab service",
+    "summary": "Generates hundred-million-cell perturbation datasets for model builders: Tahoe-100M and a 300M-cell atlas with Tahoe; immune perturbation atlas with Graph Therapeutics",
+    "models": "Tahoe-100M (with Tahoe), GigaLab",
+    "open_release": "Partial",
+    "openness_detail": "Partly open (Tahoe-100M is public)",
+    "pharma_partners": [],
+    "virtual_cell_challenge": "",
+    "sources": [
+      {
+        "url": "https://www.businesswire.com/news/home/20251211343630/en",
+        "supports": "summary, models",
+        "quality": "primary"
+      },
+      {
+        "url": "https://www.genomeweb.com/node/646831",
+        "supports": "300M-cell atlas; Qiagen acquisition",
+        "quality": "press"
+      },
+      {
+        "url": "https://www.businesswire.com/news/home/20260120419953/en",
+        "supports": "Graph Therapeutics immune perturbation atlas",
+        "quality": "primary"
+      }
+    ],
+    "founded_source": null,
+    "context_note": "",
+    "needs_verification": "Founding year from general knowledge.",
+    "last_checked": "2026-11-06",
+    "metro": "Seattle",
+    "lat": 47.61,
+    "lon": -122.33
+  },
+  {
+    "id": "pfizer",
+    "name": "Pfizer",
+    "type": "Pharma",
+    "category": "Pharma programmes",
+    "city": "New York",
+    "country": "USA",
+    "founded": "",
+    "website": "pfizer.com",
+    "approach": "Partner-led immune cell models",
+    "data": "Immune system / cell-centred disease models",
+    "summary": "Long-running use of CytoReason's computational immune-system models",
+    "models": "CytoReason partnership",
+    "open_release": "No",
+    "openness_detail": "Licensed",
+    "pharma_partners": [],
+    "virtual_cell_challenge": "",
+    "sources": [
+      {
+        "url": "https://www.pfizer.com/news/press-release/press-release-detail/cytoreason-announces-expanded-collaboration-deal-pfizer",
+        "supports": "summary, models",
+        "quality": "primary"
+      }
+    ],
+    "founded_source": null,
+    "context_note": "",
+    "needs_verification": "",
+    "last_checked": "2026-11-06",
+    "metro": "New York area",
+    "lat": 40.71,
+    "lon": -74.0
+  },
+  {
+    "id": "pharmolix",
+    "name": "PharMolix (水木分子)",
+    "type": "Startup (Tsinghua AIR spin-out)",
+    "category": "Foundation & world models",
+    "city": "Beijing",
+    "country": "China",
+    "founded": "2023",
+    "website": "pharmolix.com",
+    "approach": "Multimodal biomedical foundation models",
+    "data": "Single-cell + text, spatial transcriptomics, molecules",
+    "summary": "Aligns single-cell profiles with natural-language descriptions (LangCell); multi-scale spatial foundation model (SToFM); ChatDD drug-discovery agent",
+    "models": "LangCell, CellMSA, SToFM, BioMedGPT",
+    "open_release": "Partial",
+    "openness_detail": "Partly open (research models on GitHub)",
+    "pharma_partners": [],
+    "virtual_cell_challenge": "",
+    "sources": [
+      {
+        "url": "https://icml.cc/virtual/2024/poster/34495",
+        "supports": "summary, models",
+        "quality": "primary"
+      },
+      {
+        "url": "https://m.rccaijing.com/news-7231213177156596828.html",
+        "supports": "Founded 2023, incubated by Tsinghua AIR;",
+        "quality": "press"
+      }
+    ],
+    "founded_source": "https://pitchhub.36kr.com/project/2349410080604803",
+    "context_note": "",
+    "needs_verification": "",
+    "last_checked": "2026-11-06",
+    "metro": "Beijing",
+    "lat": 39.9,
+    "lon": 116.4
+  },
+  {
+    "id": "prima-mente",
+    "name": "Prima Mente",
+    "type": "Startup",
+    "category": "Foundation & world models",
+    "city": "London / San Francisco",
+    "country": "UK / USA",
+    "founded": "",
+    "website": "primamente.com",
+    "approach": "Brain-focused biological foundation models + virtual cell",
+    "data": "Whole-genome / epigenome (methylation, cfDNA), multi-omics",
+    "summary": "Pleiades epigenome foundation models (with University of Oxford) for neurological disease; hiring a dedicated virtual-cell team for target and marker discovery",
+    "models": "Pleiades",
+    "open_release": "Partial",
+    "openness_detail": "Partly open (preprint)",
+    "pharma_partners": [],
+    "virtual_cell_challenge": "",
+    "sources": [
+      {
+        "url": "https://www.businesswire.com/news/home/20250716401893/en/Prima-Mente-Launches-Pleiades-a-Large-Scale-Human-Whole-Epigenome-Foundation-Model-with-Clinical-Applications-for-Alzheimers-Disease",
+        "supports": "summary, models",
+        "quality": "primary"
+      },
+      {
+        "url": "https://talent.octopusventures.com/companies/prima-mente/jobs/64244710-bioinformatics-engineer-virtual-cells",
+        "supports": "Virtual-cell role (London/SF)",
+        "quality": "press"
+      }
+    ],
+    "founded_source": null,
+    "context_note": "",
+    "needs_verification": "Virtual-cell programme known only from job postings; founding year and funding not verified.",
+    "last_checked": "2026-11-06",
+    "metro": "London",
+    "lat": 51.51,
+    "lon": -0.13
+  },
+  {
+    "id": "quriegen",
+    "name": "QurieGen",
+    "type": "Startup (Radboud University spin-out)",
+    "category": "Perturbation models (single-cell)",
+    "city": "Nijmegen",
+    "country": "Netherlands",
+    "founded": "2022",
+    "website": "quriegen.com",
+    "approach": "Causal virtual cell models on single-cell multi-omics",
+    "data": "Single-cell RNA + (phospho)proteins + epigenetics (QuRIE-seq), lab-in-the-loop",
+    "summary": "Measures mRNA and hundreds of (phospho)proteins in the same single cells after drug or genetic perturbation and trains causal AI models of signalling responses",
+    "models": "QuRIE-seq platform",
+    "open_release": "—",
+    "openness_detail": "No",
+    "pharma_partners": [],
+    "virtual_cell_challenge": "",
+    "sources": [
+      {
+        "url": "https://www.ru.nl/onderzoek/onderzoeksnieuws/nieuwe-spin-off-quriegen-kan-grote-impact-hebben-op-geneesmiddelenontwikkeling",
+        "supports": "summary, models",
+        "quality": "press"
+      },
+      {
+        "url": "https://siliconcanals.com/dutch-quriegen-raises-2-2m/",
+        "supports": "€2.2M pre-seed",
+        "quality": "press"
+      },
+      {
+        "url": "https://www.massbio.org/?p=507534",
+        "supports": "AI virtual cell models, multi-omics, lab-in-the-loop",
+        "quality": "press"
+      }
+    ],
+    "founded_source": "https://app.dealroom.co/companies/quriegen",
+    "context_note": "",
+    "needs_verification": "",
+    "last_checked": "2026-11-06",
+    "metro": "Nijmegen",
+    "lat": 51.84,
+    "lon": 5.86
+  },
+  {
+    "id": "recursion",
+    "name": "Recursion",
+    "type": "Public company (biotech)",
+    "category": "Imaging & morphology",
+    "city": "Salt Lake City",
+    "country": "USA",
+    "founded": "",
+    "website": "recursion.com",
+    "approach": "Imaging / phenomics",
+    "data": "Cell Painting microscopy + transcriptomics, proteomics",
+    "summary": "Self-supervised vision foundation models (MAE ViT, up to 1.9B params) on billions of image crops from automated perturbation screens",
+    "models": "Phenom-1/2, OpenPhenom-S/16, RxRx3, TxPert",
+    "open_release": "Partial",
+    "openness_detail": "Mixed (some open models)",
+    "pharma_partners": [],
+    "virtual_cell_challenge": "",
+    "sources": [
+      {
+        "url": "https://valencelabs.com/",
+        "supports": "summary, models",
+        "quality": "primary"
+      },
+      {
+        "url": "https://arxiv.org/abs/2605.31562",
+        "supports": "Open TxFM transcriptomic model",
+        "quality": "primary"
+      },
+      {
+        "url": "https://arxiv.org/abs/2411.02572",
+        "supports": "Phenom microscopy foundation model",
+        "quality": "primary"
+      }
+    ],
+    "founded_source": null,
+    "context_note": "",
+    "needs_verification": "",
+    "last_checked": "2026-11-06",
+    "metro": "Salt Lake City",
+    "lat": 40.76,
+    "lon": -111.89
+  },
+  {
+    "id": "relation-therapeutics",
+    "name": "Relation Therapeutics",
+    "type": "Startup",
+    "category": "Foundation & world models",
+    "city": "London",
+    "country": "UK",
+    "founded": "",
+    "website": "relationrx.com",
+    "approach": "Multi-omic perturbation foundation model",
+    "data": "Time-resolved multi-omic perturbation data from human cellular disease models",
+    "summary": "Automated labs generate petascale perturbation data; tissue-specific foundation models predict responses to genetic and drug perturbations",
+    "models": "MORGAN",
+    "open_release": "No",
+    "openness_detail": "Proprietary",
+    "pharma_partners": [
+      "GSK"
+    ],
+    "virtual_cell_challenge": "",
+    "sources": [
+      {
+        "url": "https://www.biospace.com/press-releases/relation-announces-expanded-collaboration-with-gsk",
+        "supports": "summary, models",
+        "quality": "primary"
+      },
+      {
+        "url": "https://www.businesswire.com/news/home/20220609005363/en",
+        "supports": "$25M seed, active-graph ML + single-cell lab-in-the-loop",
+        "quality": "primary"
+      }
+    ],
+    "founded_source": null,
+    "context_note": "",
+    "needs_verification": "Active by 2020 (Mila collaboration); exact founding year not confirmed.",
+    "last_checked": "2026-11-06",
+    "metro": "London",
+    "lat": 51.51,
+    "lon": -0.13
+  },
+  {
+    "id": "rivercell",
+    "name": "Rivercell",
+    "type": "Startup",
+    "category": "Imaging & morphology",
+    "city": "Paris",
+    "country": "France",
+    "founded": "",
+    "website": "rivercell.ai",
+    "approach": "Single-cell perturbation + imaging",
+    "data": "Live-cell imaging + gene expression, time-resolved",
+    "summary": "Automated wet lab runs drug/genetic/environmental perturbations to pre-train an AI virtual cell 'world model'",
+    "models": "AI Virtual Cell (AIVC) programme",
+    "open_release": "No",
+    "openness_detail": "Proprietary",
+    "pharma_partners": [],
+    "virtual_cell_challenge": "",
+    "sources": [
+      {
+        "url": "https://www.eu.vc/p/rivercell-raises-22m-ai-virtual-cell",
+        "supports": "summary, models",
+        "quality": "press"
+      }
+    ],
+    "founded_source": null,
+    "context_note": "",
+    "needs_verification": "",
+    "last_checked": "2026-11-06",
+    "metro": "Paris",
+    "lat": 48.86,
+    "lon": 2.35
+  },
+  {
+    "id": "sanofi",
+    "name": "Sanofi",
+    "type": "Pharma",
+    "category": "Pharma programmes",
+    "city": "Paris",
+    "country": "France",
+    "founded": "",
+    "website": "sanofi.com",
+    "approach": "Partner-led cell & patient models",
+    "data": "Immune cell / disease models, patient data",
+    "summary": "Licenses CytoReason cell-centred disease models; virtual patient work with BioMed X; agentic AI with Owkin",
+    "models": "CytoReason IBD model licence",
+    "open_release": "No",
+    "openness_detail": "Internal / licensed",
+    "pharma_partners": [],
+    "virtual_cell_challenge": "",
+    "sources": [
+      {
+        "url": "https://www.worldpharmatoday.com/?p=25680",
+        "supports": "summary, models",
+        "quality": "press"
+      }
+    ],
+    "founded_source": null,
+    "context_note": "",
+    "needs_verification": "",
+    "last_checked": "2026-11-06",
+    "metro": "Paris",
+    "lat": 48.86,
+    "lon": 2.35
+  },
+  {
+    "id": "scienta-lab",
+    "name": "Scienta Lab",
+    "type": "Startup",
+    "category": "Patient & disease models",
+    "city": "Paris",
+    "country": "France",
+    "founded": "2021",
+    "website": "scientalab.com",
+    "approach": "Multimodal immunology foundation model",
+    "data": "Bulk & single-cell RNA-seq, histology, clinical (human + mouse)",
+    "summary": "EVA: 440M-param cross-species multimodal foundation model for immunology & inflammation, aimed at patient-level translational predictions; actively hiring AI researchers and ML engineers in Paris",
+    "models": "EVA",
+    "open_release": "No",
+    "openness_detail": "Proprietary",
+    "pharma_partners": [
+      "OSE"
+    ],
+    "virtual_cell_challenge": "",
+    "sources": [
+      {
+        "url": "https://arxiv.org/html/2602.10168v1",
+        "supports": "summary, models",
+        "quality": "primary"
+      },
+      {
+        "url": "https://eic.ec.europa.eu/eic-fund/eic-fund-portfolio/scientalab_en",
+        "supports": "EVA multimodal immunology foundation model; EIC Fund portfolio",
+        "quality": "press"
+      }
+    ],
+    "founded_source": "https://convention.bio.org/2026-sessions-and-courses/scienta",
+    "context_note": "",
+    "needs_verification": "",
+    "last_checked": "2026-11-06",
+    "metro": "Paris",
+    "lat": 48.86,
+    "lon": 2.35
+  },
+  {
+    "id": "scilifelab",
+    "name": "SciLifeLab",
+    "type": "National research infrastructure",
+    "category": "Imaging & morphology",
+    "city": "Stockholm",
+    "country": "Sweden",
+    "founded": "",
+    "website": "scilifelab.se",
+    "approach": "Multimodal (incl. imaging)",
+    "data": "Multi-omics, imaging",
+    "summary": "Alpha Cell: national programme to build an AI-ready virtual human cell from imaging + spatial proteomics; SEK 590M from the Knut & Alice Wallenberg Foundation, running to 2033; led by Jan Ellenberg and Mathias Uhlén",
+    "models": "Alpha Cell (planned 2026)",
+    "open_release": "—",
+    "openness_detail": "TBD",
+    "pharma_partners": [],
+    "virtual_cell_challenge": "",
+    "sources": [
+      {
+        "url": "https://www.scilifelab.se/alpha-cell",
+        "supports": "summary, models",
+        "quality": "primary"
+      }
+    ],
+    "founded_source": null,
+    "context_note": "",
+    "needs_verification": "",
+    "last_checked": "2026-11-06",
+    "metro": "Stockholm",
+    "lat": 59.33,
+    "lon": 18.07
+  },
+  {
+    "id": "shift-bioscience",
+    "name": "Shift Bioscience",
+    "type": "Startup (rejuvenation)",
+    "category": "Perturbation models (single-cell)",
+    "city": "Cambridge",
+    "country": "UK",
+    "founded": "",
+    "website": "shiftbioscience.com",
+    "approach": "Single-cell perturbation",
+    "data": "scRNA-seq genetic perturbation",
+    "summary": "Genetic perturbation-response models for rejuvenation target discovery; calibrated benchmark metrics (Nature Biotech 2026)",
+    "models": "Calibration framework; SB-101 target",
+    "open_release": "Partial",
+    "openness_detail": "Proprietary models, published methods",
+    "pharma_partners": [],
+    "virtual_cell_challenge": "",
+    "sources": [
+      {
+        "url": "https://www.selectscience.net/article/shift-bioscience-publication-increases-confidence-in-ai-virtual-cells-for-novel-target-discovery",
+        "supports": "summary, models",
+        "quality": "press"
+      }
+    ],
+    "founded_source": null,
+    "context_note": "",
+    "needs_verification": "Funding amount not checked.",
+    "last_checked": "2026-11-06",
+    "metro": "Cambridge (UK)",
+    "lat": 52.2,
+    "lon": 0.12
+  },
+  {
+    "id": "stanford-covert-lab",
+    "name": "Stanford – Covert lab",
+    "type": "Academic lab",
+    "category": "Mechanistic simulation",
+    "city": "Stanford",
+    "country": "USA",
+    "founded": "",
+    "website": "covert.stanford.edu",
+    "approach": "Mechanistic whole-cell simulation",
+    "data": "Literature-curated parameters, multi-omics",
+    "summary": "Built the first whole-cell model (Mycoplasma genitalium, Cell 2012) and an E. coli whole-cell model, now scaled to whole-colony simulations",
+    "models": "M. genitalium whole-cell model, E. coli whole-cell model",
+    "open_release": "Yes",
+    "openness_detail": "Open (models on GitHub)",
+    "pharma_partners": [],
+    "virtual_cell_challenge": "",
+    "sources": [
+      {
+        "url": "https://engineering.stanford.edu/news/stanford-researchers-produce-first-complete-computer-model-organism",
+        "supports": "summary, models",
+        "quality": "press"
+      },
+      {
+        "url": "https://ee.stanford.edu/event/10-17-2024/whole-cell-modeling-e-coli-simulation-discovery",
+        "supports": "E. coli whole-cell and whole-colony models",
+        "quality": "press"
+      }
+    ],
+    "founded_source": null,
+    "context_note": "",
+    "needs_verification": "",
+    "last_checked": "2026-11-06",
+    "metro": "SF Bay Area",
+    "lat": 37.6,
+    "lon": -122.25
+  },
+  {
+    "id": "stanford-leskovec-lab-snap",
+    "name": "Stanford – Leskovec lab (SNAP)",
+    "type": "Academic lab",
+    "category": "Foundation & world models",
+    "city": "Stanford",
+    "country": "USA",
+    "founded": "",
+    "website": "snap.stanford.edu",
+    "approach": "Universal cell foundation model + AI agents",
+    "data": "scRNA-seq across species; literature/tools for agents",
+    "summary": "Universal Cell Embeddings map any cell from any species into one space; Biomni agent plans and runs biomedical analyses",
+    "models": "UCE, SATURN, Biomni, BioDiscoveryAgent",
+    "open_release": "Yes",
+    "openness_detail": "Open (code + weights on GitHub)",
+    "pharma_partners": [],
+    "virtual_cell_challenge": "",
+    "sources": [
+      {
+        "url": "https://doi.org/10.1038/s41586-026-10689-z",
+        "supports": "summary, models",
+        "quality": "primary"
+      },
+      {
+        "url": "https://doi.org/10.1126/science.adz4351",
+        "supports": "Biomni (Science 2026)",
+        "quality": "primary"
+      }
+    ],
+    "founded_source": null,
+    "context_note": "",
+    "needs_verification": "",
+    "last_checked": "2026-11-06",
+    "metro": "SF Bay Area",
+    "lat": 37.6,
+    "lon": -122.25
+  },
+  {
+    "id": "stanford-lundberg-lab-human-protein-atla",
+    "name": "Stanford – Lundberg lab / Human Protein Atlas",
+    "type": "Academic",
+    "category": "Spatial & tissue models",
+    "city": "Stanford / Stockholm",
+    "country": "USA / Sweden",
+    "founded": "",
+    "website": "cellprofiling.org",
+    "approach": "Imaging (spatial proteomics)",
+    "data": "Fluorescence microscopy, subcellular protein localisation",
+    "summary": "Self-supervised vision models of protein localisation; generative imaging to view all ~13,000 proteins in one cell",
+    "models": "SubCell, ProtiCelli, HPA Cell Atlas",
+    "open_release": "Yes",
+    "openness_detail": "Open",
+    "pharma_partners": [],
+    "virtual_cell_challenge": "",
+    "sources": [
+      {
+        "url": "https://news.stanford.edu/stories/2026/05/research-matters-emma-lundberg",
+        "supports": "summary, models",
+        "quality": "primary"
+      },
+      {
+        "url": "https://doi.org/10.1101/2024.12.06.627299",
+        "supports": "SubCell vision foundation model",
+        "quality": "primary"
+      }
+    ],
+    "founded_source": null,
+    "context_note": "",
+    "needs_verification": "",
+    "last_checked": "2026-11-06",
+    "metro": "SF Bay Area",
+    "lat": 37.6,
+    "lon": -122.25
+  },
+  {
+    "id": "stanford-zou-group",
+    "name": "Stanford – Zou group",
+    "type": "Academic lab",
+    "category": "Agents & benchmarks",
+    "city": "Stanford",
+    "country": "USA",
+    "founded": "",
+    "website": "www.james-zou.com",
+    "approach": "AI agents for cell biology",
+    "data": "Public single-cell datasets; literature",
+    "summary": "LLM agents that autonomously reanalyse single-cell data (CellVoyager) or run a team of AI scientists (Virtual Lab)",
+    "models": "CellVoyager, Virtual Lab",
+    "open_release": "Yes",
+    "openness_detail": "Open (code + weights on GitHub)",
+    "pharma_partners": [],
+    "virtual_cell_challenge": "",
+    "sources": [
+      {
+        "url": "https://doi.org/10.1038/s41592-026-03029-6",
+        "supports": "summary, models",
+        "quality": "primary"
+      },
+      {
+        "url": "https://www.nature.com/articles/s41586-025-09442-9",
+        "supports": "Virtual Lab (Nature 2025)",
+        "quality": "primary"
+      }
+    ],
+    "founded_source": null,
+    "context_note": "",
+    "needs_verification": "",
+    "last_checked": "2026-11-06",
+    "metro": "SF Bay Area",
+    "lat": 37.6,
+    "lon": -122.25
+  },
+  {
+    "id": "synthesize-bio",
+    "name": "Synthesize Bio",
+    "type": "Startup",
+    "category": "Foundation & world models",
+    "city": "Seattle",
+    "country": "USA",
+    "founded": "",
+    "website": "synthesize.bio",
+    "approach": "Generative genomics",
+    "data": "Bulk RNA-seq (curated public data)",
+    "summary": "Generative model produces expression data from a text description of an experimental design",
+    "models": "GEM-1",
+    "open_release": "Yes",
+    "openness_detail": "Open API access",
+    "pharma_partners": [],
+    "virtual_cell_challenge": "",
+    "sources": [
+      {
+        "url": "https://www.geekwire.com/2025/fred-hutch-leaders-raise-10m-for-new-ai-startup-aiming-to-expedite-drug-discovery/",
+        "supports": "summary, models",
+        "quality": "press"
+      }
+    ],
+    "founded_source": null,
+    "context_note": "Uses bulk RNA-seq, not single-cell.",
+    "needs_verification": "Founding year conflicts (2023 vs 2025).",
+    "last_checked": "2026-11-06",
+    "metro": "Seattle",
+    "lat": 47.61,
+    "lon": -122.33
+  },
+  {
+    "id": "tahoe-therapeutics-ex-vevo",
+    "name": "Tahoe Therapeutics (ex-Vevo)",
+    "type": "Startup",
+    "category": "Perturbation models (single-cell)",
+    "city": "South San Francisco",
+    "country": "USA",
+    "founded": "",
+    "website": "tahoebio.ai",
+    "approach": "Single-cell perturbation",
+    "data": "Single-cell drug screens (pooled 'Mosaic' cell lines)",
+    "summary": "Generates gigascale chemical perturbation data and trains perturbation-trained foundation models; 300M-cell perturbation atlas with Parse Biosciences (Dec 2025)",
+    "models": "Tahoe-100M, Tahoe-x1, TahoeDive; 120M-cell dataset with Arc & Biohub",
+    "open_release": "Yes",
+    "openness_detail": "Open datasets/models",
+    "pharma_partners": [],
+    "virtual_cell_challenge": "",
+    "sources": [
+      {
+        "url": "https://www.genengnews.com/gen-edge/tahoe-arc-institute-and-biohub-join-forces-on-massive-virtual-cell-dataset/",
+        "supports": "summary, models",
+        "quality": "press"
+      },
+      {
+        "url": "https://www.businesswire.com/news/home/20251211343630/en",
+        "supports": "Parse GigaLab 300M-cell atlas",
+        "quality": "primary"
+      }
+    ],
+    "founded_source": null,
+    "context_note": "",
+    "needs_verification": "",
+    "last_checked": "2026-11-06",
+    "metro": "SF Bay Area",
+    "lat": 37.6,
+    "lon": -122.25
+  },
+  {
+    "id": "tencent-life-sciences-lab",
+    "name": "Tencent Life Sciences Lab",
+    "type": "Big tech AI lab",
+    "category": "Perturbation models (single-cell)",
+    "city": "Shenzhen",
+    "country": "China",
+    "founded": "",
+    "website": "",
+    "approach": "Single-cell perturbation",
+    "data": "Multimodal molecular + single-cell",
+    "summary": "Unified cell perturbation framework from multimodal molecular representations to cross-domain phenotype transfer (Cell, Aug 2026)",
+    "models": "UniPert-G2CP, CD-GPT",
+    "open_release": "Yes",
+    "openness_detail": "Open code (CD-GPT)",
+    "pharma_partners": [],
+    "virtual_cell_challenge": "",
+    "sources": [
+      {
+        "url": "https://doi.org/10.1038/s41551-025-01528-z",
+        "supports": "summary, models",
+        "quality": "primary"
+      },
+      {
+        "url": "https://doi.org/10.1016/j.cell.2026.06.005",
+        "supports": "UniPert (Cell 2026)",
+        "quality": "primary"
+      }
+    ],
+    "founded_source": null,
+    "context_note": "",
+    "needs_verification": "Lab city assumed from Tencent HQ.",
+    "last_checked": "2026-11-06",
+    "metro": "Shenzhen",
+    "lat": 22.54,
+    "lon": 114.06
+  },
+  {
+    "id": "tolemy-bio",
+    "name": "Tolemy Bio",
+    "type": "Startup",
+    "category": "Adjacent",
+    "city": "Barcelona (ops) / Cambridge (HQ)",
+    "country": "Spain / UK",
+    "founded": "",
+    "website": "tolemy.bio",
+    "approach": "AI cell-biology data platform (adjacent)",
+    "data": "Cell-culture & lab experimental data",
+    "summary": "'Control panel for the cell': Orbit platform unifies lab data into an AI-ready workspace to predict and direct cell systems; hiring ML/data roles in Barcelona",
+    "models": "Orbit",
+    "open_release": "No",
+    "openness_detail": "Proprietary",
+    "pharma_partners": [],
+    "virtual_cell_challenge": "",
+    "sources": [
+      {
+        "url": "https://catalonia.com/w/british-startup-tolemy-bio-chooses-barcelona-to-advance-ai-solutions-applied-to-the-production-of-advanced-therapies",
+        "supports": "summary, models",
+        "quality": "press"
+      }
+    ],
+    "founded_source": null,
+    "context_note": "HQ listed as Cambridge UK; Barcelona hosts experimental ops.",
+    "needs_verification": "",
+    "last_checked": "2026-11-06",
+    "metro": "Barcelona",
+    "lat": 41.39,
+    "lon": 2.17
+  },
+  {
+    "id": "tum-gagneur-lab",
+    "name": "TUM – Gagneur lab",
+    "type": "Academic lab",
+    "category": "Foundation & world models",
+    "city": "Munich",
+    "country": "Germany",
+    "founded": "",
+    "website": "gagneurlab.in.tum.de",
+    "approach": "DNA-sequence-to-single-cell foundation model",
+    "data": "DNA sequence → scRNA + scATAC profiles",
+    "summary": "Predicts cell-type-specific expression and accessibility directly from DNA sequence at single-cell resolution (scooby)",
+    "models": "scooby",
+    "open_release": "Yes",
+    "openness_detail": "Open (code + weights on GitHub)",
+    "pharma_partners": [],
+    "virtual_cell_challenge": "",
+    "sources": [
+      {
+        "url": "https://www.nature.com/articles/s41592-025-02854-5",
+        "supports": "summary, models",
+        "quality": "primary"
+      }
+    ],
+    "founded_source": null,
+    "context_note": "",
+    "needs_verification": "",
+    "last_checked": "2026-11-06",
+    "metro": "Munich",
+    "lat": 48.14,
+    "lon": 11.58
+  },
+  {
+    "id": "turbine",
+    "name": "Turbine",
+    "type": "Startup",
+    "category": "Mechanistic simulation",
+    "city": "London / Budapest",
+    "country": "UK / Hungary",
+    "founded": "",
+    "website": "turbine.ai",
+    "approach": "Mechanistic simulation + ML",
+    "data": "Protein interactome, multi-omics, patient tumour data",
+    "summary": "Interpretable network-based simulation of protein-signalling logic; virtual lab and virtual patient library",
+    "models": "Simulated Cell, Virtual Lab",
+    "open_release": "No",
+    "openness_detail": "Proprietary (SaaS access)",
+    "pharma_partners": [
+      "MSD"
+    ],
+    "virtual_cell_challenge": "",
+    "sources": [
+      {
+        "url": "https://tech.eu/2025/08/22/why-most-ai-drug-discovery-startups-struggle-and-how-turbine-plans-to-beat-the-odds/",
+        "supports": "summary, models",
+        "quality": "press"
+      },
+      {
+        "url": "https://www.turbine.ai/?p=2642",
+        "supports": "$25M Series B (Feb 2026), immunology partnership with top-10 pharma",
+        "quality": "press"
+      }
+    ],
+    "founded_source": null,
+    "context_note": "",
+    "needs_verification": "Funding total combines two rounds from different sources.",
+    "last_checked": "2026-11-06",
+    "metro": "London",
+    "lat": 51.51,
+    "lon": -0.13
+  },
+  {
+    "id": "university-of-chicago-team-outlier",
+    "name": "University of Chicago (Team Outlier)",
+    "type": "Academic",
+    "category": "Perturbation models (single-cell)",
+    "city": "Chicago",
+    "country": "USA",
+    "founded": "",
+    "website": "uchicago.edu",
+    "approach": "Single-cell perturbation (statistical)",
+    "data": "scRNA-seq perturbation",
+    "summary": "Team Outlier (UChicago, Dartmouth, HKU; Jingshu Wang quoted for UChicago) placed 3rd in the 2025 Virtual Cell Challenge",
+    "models": "TransPert",
+    "open_release": "Yes",
+    "openness_detail": "Open",
+    "pharma_partners": [],
+    "virtual_cell_challenge": "3rd place (2025) · 2026: final rank 8/806",
+    "sources": [
+      {
+        "url": "https://www.genomeweb.com/node/646871",
+        "supports": "summary, models",
+        "quality": "press"
+      },
+      {
+        "url": "https://arxiv.org/abs/2511.16954",
+        "supports": "Team method write-up",
+        "quality": "primary"
+      }
+    ],
+    "founded_source": null,
+    "context_note": "",
+    "needs_verification": "",
+    "last_checked": "2026-11-06",
+    "metro": "Chicago area",
+    "lat": 41.88,
+    "lon": -87.63
+  },
+  {
+    "id": "university-of-toronto-uhn-vector-institu",
+    "name": "University of Toronto / UHN / Vector Institute – Bo Wang lab",
+    "type": "Academic lab",
+    "category": "Foundation & world models",
+    "city": "Toronto",
+    "country": "Canada",
+    "founded": "",
+    "website": "wanglab.ai",
+    "approach": "Single-cell foundation models",
+    "data": "scRNA-seq, multi-omics, spatial, Cell Painting images",
+    "summary": "Generative pretrained transformer over 33M cells (scGPT), extended to spatial data and to morphology generation (MorphoDiff)",
+    "models": "scGPT, scGPT-spatial, MorphoDiff",
+    "open_release": "Yes",
+    "openness_detail": "Open (code + weights on GitHub)",
+    "pharma_partners": [],
+    "virtual_cell_challenge": "",
+    "sources": [
+      {
+        "url": "https://doi.org/10.1038/s41592-024-02201-0",
+        "supports": "summary, models",
+        "quality": "primary"
+      },
+      {
+        "url": "https://www.businesswire.com/news/home/20250403489318/en",
+        "supports": "Bo Wang also leads biomedical AI at Xaira",
+        "quality": "primary"
+      }
+    ],
+    "founded_source": null,
+    "context_note": "Bo Wang now also at Xaira Therapeutics (since 2025); scGPT is a starting point for Xaira's X-Cell.",
+    "needs_verification": "",
+    "last_checked": "2026-11-06",
+    "metro": "Toronto",
+    "lat": 43.65,
+    "lon": -79.38
+  },
+  {
+    "id": "valence-labs-recursion-ai-lab",
+    "name": "Valence Labs (Recursion AI lab)",
+    "type": "Corporate AI research lab",
+    "category": "Perturbation models (single-cell)",
+    "city": "Montreal",
+    "country": "Canada",
+    "founded": "2018 (as Valence Discovery, Mila spin-out; acq. by Recursion 2023)",
+    "website": "valencelabs.com",
+    "approach": "Single-cell perturbation + agents",
+    "data": "Transcriptomics, phenomics, multi-omics",
+    "summary": "'Predict-Explain-Discover' virtual cells with lab-in-the-loop agents; TxPert uses biological priors (graphs) beyond single-cell data",
+    "models": "TxPert, LOWE agent workflow",
+    "open_release": "Partial",
+    "openness_detail": "Mixed",
+    "pharma_partners": [],
+    "virtual_cell_challenge": "",
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2505.14613",
+        "supports": "summary, models",
+        "quality": "primary"
+      },
+      {
+        "url": "https://www.nature.com/articles/s41587-026-03113-4",
+        "supports": "TxPert (Nat Biotech 2026)",
+        "quality": "primary"
+      },
+      {
+        "url": "https://www.fasken.com/en/experience/2023/09/valence-discovery-is-acquired-by-recursion-for-us$47,-d-,5-million",
+        "supports": "Acquired by Recursion May 2023, Montreal",
+        "quality": "press"
+      }
+    ],
+    "founded_source": "https://www.preqin.com/data/profile/asset/valence-discovery-inc-/459411",
+    "context_note": "",
+    "needs_verification": "",
+    "last_checked": "2026-11-06",
+    "metro": "Montreal",
+    "lat": 45.5,
+    "lon": -73.57
+  },
+  {
+    "id": "valinor-discovery",
+    "name": "Valinor Discovery",
+    "type": "Startup",
+    "category": "Patient & disease models",
+    "city": "San Francisco",
+    "country": "USA",
+    "founded": "",
+    "website": "valinordiscovery.com",
+    "approach": "Virtual patient (perturbation)",
+    "data": "Matched multi-omics + clinical assays",
+    "summary": "Generative models simulating drug response in virtual patients; perturbation benchmarks with Helmholtz Munich",
+    "models": "Oncology virtual patient model",
+    "open_release": "No",
+    "openness_detail": "Proprietary",
+    "pharma_partners": [],
+    "virtual_cell_challenge": "",
+    "sources": [
+      {
+        "url": "https://trial.medpath.com/news/dc8fbd7c0699eeae/valinor-discovery-emerges-from-stealth-with-ai-platform-to-simulate-drug-efficacy-before-clinical-trials",
+        "supports": "summary, models",
+        "quality": "press"
+      }
+    ],
+    "founded_source": null,
+    "context_note": "",
+    "needs_verification": "Promised first model release not confirmed.",
+    "last_checked": "2026-11-06",
+    "metro": "SF Bay Area",
+    "lat": 37.6,
+    "lon": -122.25
+  },
+  {
+    "id": "wellcome-sanger-institute-lotfollahi-lab",
+    "name": "Wellcome Sanger Institute – Lotfollahi lab",
+    "type": "Academic institute",
+    "category": "Spatial & tissue models",
+    "city": "Hinxton (Cambridge)",
+    "country": "UK",
+    "founded": "",
+    "website": "sanger.ac.uk",
+    "approach": "Spatial / generative cell-niche models",
+    "data": "Single-cell + spatial transcriptomics",
+    "summary": "NicheCompass: graph deep-learning model of cell-cell communication niches in spatial omics (Nature Genetics 2025); part of Human Cell Atlas; Biohub initiative partner",
+    "models": "NicheCompass",
+    "open_release": "Yes",
+    "openness_detail": "Open",
+    "pharma_partners": [],
+    "virtual_cell_challenge": "",
+    "sources": [
+      {
+        "url": "https://sanger.ac.uk/news_item/new-ai-tool-visualises-a-cells-social-network-to-help-treat-cancer",
+        "supports": "summary, models",
+        "quality": "primary"
+      },
+      {
+        "url": "https://www.nature.com/articles/s41588-025-02120-6",
+        "supports": "NicheCompass (Nat Genet 2025)",
+        "quality": "primary"
+      }
+    ],
+    "founded_source": null,
+    "context_note": "",
+    "needs_verification": "",
+    "last_checked": "2026-11-06",
+    "metro": "Cambridge (UK)",
+    "lat": 52.2,
+    "lon": 0.12
+  },
+  {
+    "id": "westlake-university-guo-tiannan-lab",
+    "name": "Westlake University – Guo Tiannan lab",
+    "type": "Academic",
+    "category": "Foundation & world models",
+    "city": "Hangzhou",
+    "country": "China",
+    "founded": "",
+    "website": "westlake.edu.cn",
+    "approach": "Virtual yeast (multimodal)",
+    "data": "Proteomics, spatial structure, perturbation data",
+    "summary": "Neural-ODE virtual cell trained on >38M time-resolved protein measurements from perturbed breast-cancer cells; predicts drug efficacy and synergy, tested on organoids and patient biopsies",
+    "models": "ProteinTalks (perturbation-proteomics virtual cell, Nature 2026), virtual yeast model",
+    "open_release": "Yes",
+    "openness_detail": "Open (publication)",
+    "pharma_partners": [],
+    "virtual_cell_challenge": "",
+    "sources": [
+      {
+        "url": "https://www.nature.com/articles/s41586-026-11001-9",
+        "supports": "summary, models",
+        "quality": "primary"
+      },
+      {
+        "url": "https://github.com/guomics-lab/PTV-1",
+        "supports": "ProteinTalks code",
+        "quality": "primary"
+      }
+    ],
+    "founded_source": null,
+    "context_note": "",
+    "needs_verification": "",
+    "last_checked": "2026-11-06",
+    "metro": "Hangzhou",
+    "lat": 30.27,
+    "lon": 120.16
+  },
+  {
+    "id": "whitelab-genomics",
+    "name": "WhiteLab Genomics",
+    "type": "Startup",
+    "category": "Adjacent",
+    "city": "Paris",
+    "country": "France",
+    "founded": "2019",
+    "website": "whitelabgx.com",
+    "approach": "AI for genomic therapies (adjacent)",
+    "data": "Genomic / cell-therapy design data",
+    "summary": "AI platform to discover and design cell, RNA and DNA therapies; co-coordinates the TechBio France commission",
+    "models": "",
+    "open_release": "No",
+    "openness_detail": "Proprietary",
+    "pharma_partners": [],
+    "virtual_cell_challenge": "",
+    "sources": [
+      {
+        "url": "https://techcrunch.com/2022/09/12/how-whitelab-genomics-is-using-ai-to-aid-gene-and-cell-therapy-development",
+        "supports": "summary, models",
+        "quality": "press"
+      }
+    ],
+    "founded_source": "https://techcrunch.com/2022/09/12/how-whitelab-genomics-is-using-ai-to-aid-gene-and-cell-therapy-development",
+    "context_note": "Gene/cell-therapy design platform – adjacent, not a virtual-cell model.",
+    "needs_verification": "Website not verified.",
+    "last_checked": "2026-11-06",
+    "metro": "Paris",
+    "lat": 48.86,
+    "lon": 2.35
+  },
+  {
+    "id": "xaira-therapeutics",
+    "name": "Xaira Therapeutics",
+    "type": "Startup",
+    "category": "Perturbation models (single-cell)",
+    "city": "South San Francisco",
+    "country": "USA",
+    "founded": "2024",
+    "website": "xaira.com",
+    "approach": "Single-cell perturbation",
+    "data": "Genome-wide CRISPRi Perturb-seq",
+    "summary": "4.9B-param diffusion language model that iteratively replaces control expression with perturbed expression; FiCS Perturb-seq platform for data",
+    "models": "X-Cell, X-Atlas/Pisces (25.6M cells), X-Atlas/Orion (8M cells)",
+    "open_release": "Partial",
+    "openness_detail": "Partly open (subset of data & model)",
+    "pharma_partners": [],
+    "virtual_cell_challenge": "2026: final rank 3/806",
+    "sources": [
+      {
+        "url": "https://www.businesswire.com/news/home/20260317710096/en",
+        "supports": "summary, models",
+        "quality": "primary"
+      },
+      {
+        "url": "https://www.businesswire.com/news/home/20250403489318/en",
+        "supports": "Bo Wang (scGPT) joins as Head of Biomedical AI",
+        "quality": "primary"
+      },
+      {
+        "url": "https://www.biopharmatrend.com/business-intelligence/the-virtual-cell-tracker-whos-building-them-what-works-where-the-money-goes/",
+        "supports": "X-Cell listed in tracker",
+        "quality": "press"
+      },
+      {
+        "url": "https://virtualcellchallenge.org/leaderboard",
+        "supports": "Virtual Cell Challenge 2026 leaderboard",
+        "quality": "press"
+      }
+    ],
+    "founded_source": "https://www.biopharmatrend.com/news/1b-ai-drug-discovery-startup-xaira-therapeutics-appoints-foundation-model-expert-bo-wang-as-head-of-biomedical-ai-1192/",
+    "context_note": "",
+    "needs_verification": "",
+    "last_checked": "2026-11-06",
+    "metro": "SF Bay Area",
+    "lat": 37.6,
+    "lon": -122.25
+  },
+  {
+    "id": "xellar-biosystems",
+    "name": "Xellar Biosystems (耀速科技)",
+    "type": "Startup",
+    "category": "Imaging & morphology",
+    "city": "Boston / Beijing",
+    "country": "USA / China",
+    "founded": "",
+    "website": "",
+    "approach": "Imaging (3D / organ-on-chip)",
+    "data": "Organ-chips, high-content 3D cell imaging",
+    "summary": "Combines organ-on-chip, 3D high-content imaging, computer vision and AI as validation layer for virtual cells",
+    "models": "AI organ-chip platform",
+    "open_release": "No",
+    "openness_detail": "Proprietary",
+    "pharma_partners": [],
+    "virtual_cell_challenge": "",
+    "sources": [
+      {
+        "url": "https://m.chinaventure.com.cn/news/111-20260819-392822.html",
+        "supports": "summary, models",
+        "quality": "press"
+      }
+    ],
+    "founded_source": null,
+    "context_note": "Link to virtual cells is indirect (validation layer).",
+    "needs_verification": "Website not verified.",
+    "last_checked": "2026-11-06",
+    "metro": "Boston area",
+    "lat": 42.36,
+    "lon": -71.06
+  },
+  {
+    "id": "yuanshi-technology",
+    "name": "Yuanshi Technology (元示科技)",
+    "type": "Startup",
+    "category": "Perturbation models (single-cell)",
+    "city": "Shanghai",
+    "country": "China",
+    "founded": "2026",
+    "website": "",
+    "approach": "General-purpose cell foundation model",
+    "data": "Drug–cell perturbation data; automated lab",
+    "summary": "Builds a general cell model that infers drug effects in unseen cell types from known drug–cell perturbation data; closed-loop data generation with automated experiments",
+    "models": "",
+    "open_release": "—",
+    "openness_detail": "No",
+    "pharma_partners": [],
+    "virtual_cell_challenge": "",
+    "sources": [
+      {
+        "url": "https://www.tipranks.com/news/company-announcements/china-merchants-china-direct-investments-invests-rmb30-million-in-yuanshi-technology",
+        "supports": "summary, models",
+        "quality": "press"
+      },
+      {
+        "url": "https://longbridge.com/en/news/306053004",
+        "supports": "Pre-A ~RMB 300M, investors",
+        "quality": "press"
+      },
+      {
+        "url": "https://thecranechina.substack.com/p/51-china-startups-raise-510m-week",
+        "supports": "Founder Wu Jiaqi (PKU, Rockefeller)",
+        "quality": "press"
+      }
+    ],
+    "founded_source": "https://www.tipranks.com/news/company-announcements/china-merchants-china-direct-investments-invests-rmb30-million-in-yuanshi-technology",
+    "context_note": "",
+    "needs_verification": "No model or paper public yet; website not found.",
+    "last_checked": "2026-11-06",
+    "metro": "Shanghai",
+    "lat": 31.23,
+    "lon": 121.47
+  },
+  {
+    "id": "zafrens",
+    "name": "Zafrens",
+    "type": "Startup",
+    "category": "Perturbation models (single-cell)",
+    "city": "San Diego",
+    "country": "USA",
+    "founded": "",
+    "website": "zafrens.com",
+    "approach": "Perturbation data + predictive models",
+    "data": "Drug-seq and Cell Painting on ~500,000 compounds (Z-Screen, single-cell)",
+    "summary": "Massively parallel single-cell screening (Z-Screen); its AI division builds models of drug safety, selectivity and mechanism of action on its own perturbation database",
+    "models": "Z-Screen, Zafrens AI",
+    "open_release": "—",
+    "openness_detail": "No",
+    "pharma_partners": [],
+    "virtual_cell_challenge": "",
+    "sources": [
+      {
+        "url": "https://bpjw.bio.org/participating-companies/zafrens",
+        "supports": "summary, models",
+        "quality": "press"
+      },
+      {
+        "url": "https://www.businesswire.com/news/home/20231211060698/en",
+        "supports": "$23M launch financing",
+        "quality": "primary"
+      }
+    ],
+    "founded_source": null,
+    "context_note": "",
+    "needs_verification": "Founding year not verified.",
+    "last_checked": "2026-11-06",
+    "metro": "San Diego",
+    "lat": 32.72,
+    "lon": -117.16
+  }
+]

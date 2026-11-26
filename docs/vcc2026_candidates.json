@@ -1,0 +1,510 @@
+{
+ "source": "https://virtualcellchallenge.org/leaderboard",
+ "exported": "2026-11-26",
+ "final_teams": 806,
+ "validation_teams": 1635,
+ "candidates": [
+  {
+   "organisation": "Columbia University",
+   "teams": [
+    "Obradovic Lab"
+   ],
+   "best_final": 4,
+   "models": [
+    "bd03e0bea1cdf4c7"
+   ],
+   "status": "Searched 26 Nov 2026: no public virtual-cell work found – keep as participant only",
+   "source": "https://virtualcellchallenge.org/leaderboard"
+  },
+  {
+   "organisation": "Novo Nordisk Foundation Center for Basic Metabolic Research, University of Copenhagen",
+   "teams": [
+    "C-team"
+   ],
+   "best_final": 5,
+   "models": [
+    "The_Way57"
+   ],
+   "status": "Unverified – VCC 2026 participant only; check for own virtual-cell work before adding",
+   "source": "https://virtualcellchallenge.org/leaderboard"
+  },
+  {
+   "organisation": "AgingLab",
+   "teams": [
+    "Aginglab.com"
+   ],
+   "best_final": 6,
+   "models": [
+    "VirtualOmics"
+   ],
+   "status": "Searched 26 Nov 2026: no public virtual-cell work found – keep as participant only",
+   "source": "https://virtualcellchallenge.org/leaderboard"
+  },
+  {
+   "organisation": "University of Texas at Austin",
+   "teams": [
+    "TAO"
+   ],
+   "best_final": 7,
+   "models": [
+    "final-v2"
+   ],
+   "status": "Unverified – VCC 2026 participant only; check for own virtual-cell work before adding",
+   "source": "https://virtualcellchallenge.org/leaderboard"
+  },
+  {
+   "organisation": "Rice University",
+   "teams": [
+    "WCK"
+   ],
+   "models": [
+    "genoguessr"
+   ],
+   "status": "Unverified – VCC 2026 participant only; check for own virtual-cell work before adding",
+   "source": "https://virtualcellchallenge.org/leaderboard"
+  },
+  {
+   "organisation": "Karolinska Institute",
+   "teams": [
+    "kriagr"
+   ],
+   "models": [
+    "STEER"
+   ],
+   "status": "Unverified – VCC 2026 participant only; check for own virtual-cell work before adding",
+   "source": "https://virtualcellchallenge.org/leaderboard"
+  },
+  {
+   "organisation": "Duke-NUS Medical School",
+   "teams": [
+    "Lin Jiaen"
+   ],
+   "models": [
+    "P33"
+   ],
+   "status": "Unverified – VCC 2026 participant only; check for own virtual-cell work before adding",
+   "source": "https://virtualcellchallenge.org/leaderboard"
+  },
+  {
+   "organisation": "FCDI",
+   "teams": [
+    "42"
+   ],
+   "models": [
+    "Ramanujan"
+   ],
+   "status": "Unverified – VCC 2026 participant only; check for own virtual-cell work before adding",
+   "source": "https://virtualcellchallenge.org/leaderboard"
+  },
+  {
+   "organisation": "Simula Intelligence",
+   "teams": [
+    "Simula"
+   ],
+   "models": [
+    "simula-v20"
+   ],
+   "status": "Searched 26 Nov 2026: no public virtual-cell work found – keep as participant only",
+   "source": "https://virtualcellchallenge.org/leaderboard"
+  },
+  {
+   "organisation": "Westlake University",
+   "teams": [
+    "CYH"
+   ],
+   "models": [
+    "Cyan"
+   ],
+   "status": "Unverified – VCC 2026 participant only; check for own virtual-cell work before adding",
+   "source": "https://virtualcellchallenge.org/leaderboard"
+  },
+  {
+   "organisation": "DaXiangBio",
+   "teams": [
+    "小刀牛试"
+   ],
+   "models": [
+    "v67"
+   ],
+   "status": "Unverified – VCC 2026 participant only; check for own virtual-cell work before adding",
+   "source": "https://virtualcellchallenge.org/leaderboard"
+  },
+  {
+   "organisation": "Oxford / Prima Mente",
+   "teams": [
+    "Hongjian Zhou"
+   ],
+   "models": [
+    "pm-r17b"
+   ],
+   "status": "Added to map (Prima Mente)",
+   "source": "https://virtualcellchallenge.org/leaderboard"
+  },
+  {
+   "organisation": "em2.bio",
+   "teams": [
+    "em2.bio"
+   ],
+   "models": [
+    "FUNCTIONFIRST"
+   ],
+   "status": "Searched 26 Nov 2026: no public virtual-cell work found – keep as participant only",
+   "source": "https://virtualcellchallenge.org/leaderboard"
+  },
+  {
+   "organisation": "Eonark",
+   "teams": [
+    "Null"
+   ],
+   "models": [
+    "CellX"
+   ],
+   "status": "Unverified – VCC 2026 participant only; check for own virtual-cell work before adding",
+   "source": "https://virtualcellchallenge.org/leaderboard"
+  },
+  {
+   "organisation": "Advaita Labs",
+   "teams": [
+    "Advaita Labs"
+   ],
+   "models": [
+    "Advaita_V18"
+   ],
+   "status": "Unverified – VCC 2026 participant only; check for own virtual-cell work before adding",
+   "source": "https://virtualcellchallenge.org/leaderboard"
+  },
+  {
+   "organisation": "Centre of Aging Research, RITS",
+   "teams": [
+    "Virtual Cell team"
+   ],
+   "models": [
+    "Virtuoso"
+   ],
+   "status": "Unverified – VCC 2026 participant only; check for own virtual-cell work before adding",
+   "source": "https://virtualcellchallenge.org/leaderboard"
+  },
+  {
+   "organisation": "Shenzhen University of Advanced Technology",
+   "teams": [
+    "HaveFun"
+   ],
+   "models": [
+    "CellShift"
+   ],
+   "status": "Unverified – VCC 2026 participant only; check for own virtual-cell work before adding",
+   "source": "https://virtualcellchallenge.org/leaderboard"
+  },
+  {
+   "organisation": "National University of Singapore",
+   "teams": [
+    "huanglinn"
+   ],
+   "models": [
+    "submit"
+   ],
+   "status": "Unverified – VCC 2026 participant only; check for own virtual-cell work before adding",
+   "source": "https://virtualcellchallenge.org/leaderboard"
+  },
+  {
+   "organisation": "Monad Labs",
+   "teams": [
+    "Bill M"
+   ],
+   "models": [
+    "f24a"
+   ],
+   "status": "Unverified – VCC 2026 participant only; check for own virtual-cell work before adding",
+   "source": "https://virtualcellchallenge.org/leaderboard"
+  },
+  {
+   "organisation": "University of Washington",
+   "teams": [
+    "Beginner"
+   ],
+   "models": [
+    "v1029"
+   ],
+   "status": "Unverified – VCC 2026 participant only; check for own virtual-cell work before adding",
+   "source": "https://virtualcellchallenge.org/leaderboard"
+  },
+  {
+   "organisation": "Tianjin University",
+   "teams": [
+    "TJU-SynBio"
+   ],
+   "models": [
+    "v_final"
+   ],
+   "status": "Unverified – VCC 2026 participant only; check for own virtual-cell work before adding",
+   "source": "https://virtualcellchallenge.org/leaderboard"
+  },
+  {
+   "organisation": "Zafrens",
+   "teams": [
+    "Swamy Vijayan"
+   ],
+   "models": [
+    "Zafrens V137-01"
+   ],
+   "status": "Added to map",
+   "source": "https://virtualcellchallenge.org/leaderboard"
+  },
+  {
+   "organisation": "Myllia Biotechnology + Bit.Bio Discovery",
+   "teams": [
+    "Myllia+BBD"
+   ],
+   "models": [
+    "Milan_blend"
+   ],
+   "status": "Added to map (Myllia)",
+   "source": "https://virtualcellchallenge.org/leaderboard"
+  },
+  {
+   "organisation": "University of Oslo",
+   "teams": [
+    "Li Meng"
+   ],
+   "models": [
+    "Spirited"
+   ],
+   "status": "Unverified – VCC 2026 participant only; check for own virtual-cell work before adding",
+   "source": "https://virtualcellchallenge.org/leaderboard"
+  },
+  {
+   "organisation": "Berlin Institute of Health at Charité – Universitätsmedizin Berlin",
+   "teams": [
+    "Qihao Duan"
+   ],
+   "models": [
+    "JanusPerturb"
+   ],
+   "status": "Unverified – VCC 2026 participant only; check for own virtual-cell work before adding",
+   "source": "https://virtualcellchallenge.org/leaderboard"
+  },
+  {
+   "organisation": "Paw Therapeutics Limited",
+   "teams": [
+    "PinaWJ"
+   ],
+   "models": [
+    "TaGa"
+   ],
+   "status": "Unverified – VCC 2026 participant only; check for own virtual-cell work before adding",
+   "source": "https://virtualcellchallenge.org/leaderboard"
+  },
+  {
+   "organisation": "AI4S",
+   "teams": [
+    "Yuanhao Li"
+   ],
+   "models": [
+    "Aurora"
+   ],
+   "status": "Unverified – VCC 2026 participant only; check for own virtual-cell work before adding",
+   "source": "https://virtualcellchallenge.org/leaderboard"
+  },
+  {
+   "organisation": "University of Buenos Aires",
+   "teams": [
+    "Manuel Fernández Burda"
+   ],
+   "models": [
+    "r3f617b"
+   ],
+   "status": "Unverified – VCC 2026 participant only; check for own virtual-cell work before adding",
+   "source": "https://virtualcellchallenge.org/leaderboard"
+  },
+  {
+   "organisation": "Zhejiang University",
+   "teams": [
+    "ZJU_FangGroup"
+   ],
+   "models": [
+    "FangGroupAI"
+   ],
+   "status": "Unverified – VCC 2026 participant only; check for own virtual-cell work before adding",
+   "source": "https://virtualcellchallenge.org/leaderboard"
+  },
+  {
+   "organisation": "IWR/EMBL",
+   "teams": [
+    "Jan Höfer"
+   ],
+   "models": [
+    "flow"
+   ],
+   "status": "Unverified – VCC 2026 participant only; check for own virtual-cell work before adding",
+   "source": "https://virtualcellchallenge.org/leaderboard"
+  },
+  {
+   "organisation": "Veracell.ai",
+   "teams": [
+    "Veracell.ai"
+   ],
+   "models": [
+    "Hippocrates v2"
+   ],
+   "status": "Searched 26 Nov 2026: no public virtual-cell work found – keep as participant only",
+   "source": "https://virtualcellchallenge.org/leaderboard"
+  },
+  {
+   "organisation": "CellDelta-XC",
+   "teams": [
+    "CellDelta-XC"
+   ],
+   "models": [
+    "F1"
+   ],
+   "status": "Unverified – VCC 2026 participant only; check for own virtual-cell work before adding",
+   "source": "https://virtualcellchallenge.org/leaderboard"
+  },
+  {
+   "organisation": "Soongsil University",
+   "teams": [
+    "CSBL2",
+    "CSBL"
+   ],
+   "models": [
+    "v118",
+    "s_ver_13"
+   ],
+   "status": "Unverified – VCC 2026 participant only; check for own virtual-cell work before adding",
+   "source": "https://virtualcellchallenge.org/leaderboard"
+  },
+  {
+   "organisation": "salvectors",
+   "teams": [
+    "Zemin Li"
+   ],
+   "models": [
+    "v4c-rsf-pool-r3"
+   ],
+   "status": "Unverified – VCC 2026 participant only; check for own virtual-cell work before adding",
+   "source": "https://virtualcellchallenge.org/leaderboard"
+  },
+  {
+   "organisation": "Korea Biofoundry, KRIBB",
+   "teams": [
+    "mimikyu"
+   ],
+   "models": [
+    "mimikyu v19"
+   ],
+   "status": "Unverified – VCC 2026 participant only; check for own virtual-cell work before adding",
+   "source": "https://virtualcellchallenge.org/leaderboard"
+  },
+  {
+   "organisation": "Yale University",
+   "teams": [
+    "Reilly Lab"
+   ],
+   "models": [
+    "vcc-cf13c748"
+   ],
+   "status": "Unverified – VCC 2026 participant only; check for own virtual-cell work before adding",
+   "source": "https://virtualcellchallenge.org/leaderboard"
+  },
+  {
+   "organisation": "Crelife",
+   "teams": [
+    "CCCC"
+   ],
+   "models": [
+    "C-Cell-v2"
+   ],
+   "status": "Unverified – VCC 2026 participant only; check for own virtual-cell work before adding",
+   "source": "https://virtualcellchallenge.org/leaderboard"
+  },
+  {
+   "organisation": "Bader Lab -- JHU",
+   "teams": [
+    "Yuxiang Li"
+   ],
+   "models": [
+    "final_stack_names"
+   ],
+   "status": "Unverified – VCC 2026 participant only; check for own virtual-cell work before adding",
+   "source": "https://virtualcellchallenge.org/leaderboard"
+  },
+  {
+   "organisation": "SLAI",
+   "teams": [
+    "Chen Zhang"
+   ],
+   "models": [
+    "v155_cis20_r02"
+   ],
+   "status": "Unverified – VCC 2026 participant only; check for own virtual-cell work before adding",
+   "source": "https://virtualcellchallenge.org/leaderboard"
+  },
+  {
+   "organisation": "SJTU",
+   "teams": [
+    "YANG Emily"
+   ],
+   "models": [
+    "neural205_AB_20261020"
+   ],
+   "status": "Unverified – VCC 2026 participant only; check for own virtual-cell work before adding",
+   "source": "https://virtualcellchallenge.org/leaderboard"
+  },
+  {
+   "organisation": "KAIST",
+   "teams": [
+    "Team SEPO"
+   ],
+   "models": [
+    "pairxfer_t20_test"
+   ],
+   "status": "Unverified – VCC 2026 participant only; check for own virtual-cell work before adding",
+   "source": "https://virtualcellchallenge.org/leaderboard"
+  },
+  {
+   "organisation": "China Pharmaceutical University",
+   "teams": [
+    "Yixiang Mao"
+   ],
+   "models": [
+    "BJVB-3ZLC"
+   ],
+   "status": "Unverified – VCC 2026 participant only; check for own virtual-cell work before adding",
+   "source": "https://virtualcellchallenge.org/leaderboard"
+  },
+  {
+   "organisation": "South China University of Technology",
+   "teams": [
+    "侯 王"
+   ],
+   "models": [
+    "h1w2p2"
+   ],
+   "status": "Unverified – VCC 2026 participant only; check for own virtual-cell work before adding",
+   "source": "https://virtualcellchallenge.org/leaderboard"
+  },
+  {
+   "organisation": "SCUT",
+   "teams": [
+    "BioCai"
+   ],
+   "models": [
+    "1021"
+   ],
+   "status": "Unverified – VCC 2026 participant only; check for own virtual-cell work before adding",
+   "source": "https://virtualcellchallenge.org/leaderboard"
+  },
+  {
+   "organisation": "University of Illinois Urbana-Champaign",
+   "teams": [
+    "TreeNew"
+   ],
+   "models": [
+    "TreeNew-F2 transfer plus LightGBM correction"
+   ],
+   "status": "Unverified – VCC 2026 participant only; check for own virtual-cell work before adding",
+   "source": "https://virtualcellchallenge.org/leaderboard"
+  }
+ ],
+ "note": "Organisations seen only on the leaderboard. Final ranks are kept for the top 10 only."
+}
